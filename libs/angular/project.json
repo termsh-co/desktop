@@ -1,0 +1,1 @@
+{ "name": "angular", "$schema": "../../node_modules/nx/schemas/project-schema.json", "sourceRoot": "libs/angular/src", "projectType": "library", "tags": ["scope:shared"] }

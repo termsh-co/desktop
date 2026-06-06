@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "servers": "Servers",
+    "snippets": "Snippets",
+    "vault": "Vault",
+    "keys": "Keys",
+    "settings": "Settings",
+    "navigation": "Navigation",
+    "pages": "Pages"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "retry": "Retry",
+    "copy": "Copy",
+    "done": "Done"
+  },
+  "status": {
+    "ssh": "SSH · {{user}}@{{host}}",
+    "remote": "{{protocol}} · {{user}}@{{host}}",
+    "local": "PTY · local",
+    "disconnected": "Not connected",
+    "sessions": "{{count}} sessions",
+    "vaultNone": "No vault",
+    "vaultUnlocked": "Vault unlocked",
+    "vaultLocked": "Vault locked",
+    "hosts": "{{count}} hosts",
+    "syncConnected": "sync · {{email}}",
+    "syncNoConnection": "sync · no connection",
+    "syncOff": "sync off"
+  },
+  "runtime": {
+    "notTauri": "Desktop app is not running. Use `pnpm dev` from the project root (not Vite/browser only)."
+  }
+}

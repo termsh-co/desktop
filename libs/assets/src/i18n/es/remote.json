@@ -1,0 +1,58 @@
+{
+  "view": {
+    "searchPlaceholder": "Buscar hosts SFTP…",
+    "addServer": "Añadir servidor",
+    "empty": "Aún no hay servidores. Añade uno para explorar archivos por SFTP.",
+    "noResults": "Sin resultados.",
+    "connected": "Conectado",
+    "editHostAria": "{{name}} — editar"
+  },
+  "explorer": {
+    "idleHint": "Selecciona un servidor en la pantalla SFTP / FTP.",
+    "local": "Local",
+    "remote": "Remoto",
+    "upload": "↑ Subir",
+    "download": "↓ Descargar",
+    "pickFile": "Elegir archivo…",
+    "uploadSelectedTitle": "Subir archivo seleccionado",
+    "downloadSelectedTitle": "Descargar archivo seleccionado",
+    "retry": "Reintentar",
+    "localList": "Lista local",
+    "filesCount": "{{count}} archivos",
+    "transferRunning": "…",
+    "transferDone": "listo",
+    "transferError": "error",
+    "errors": {
+      "foldersCannotUpload": "No se pueden subir carpetas — selecciona un archivo",
+      "noServerSession": "Sin sesión de servidor",
+      "foldersCannotDownload": "No se pueden descargar carpetas — selecciona un archivo",
+      "symlinkCannotDownload": "No se pueden descargar enlaces simbólicos — doble clic para abrir",
+      "localFolderNotLoaded": "La carpeta local aún no se cargó"
+    }
+  },
+  "grid": {
+    "colName": "Nombre",
+    "colSize": "Tamaño",
+    "colType": "Tipo",
+    "colModified": "Modificado",
+    "emptyDir": "Directorio vacío",
+    "loading": "Cargando…",
+    "dropTitle": "Suelta archivos aquí",
+    "dropUpload": "Subir al servidor",
+    "dropDownload": "Descargar a esta carpeta",
+    "parentDir": "Directorio superior",
+    "open": "Abrir",
+    "goParent": "Ir al superior",
+    "uploadToServer": "Subir al servidor",
+    "download": "Descargar",
+    "copyPath": "Copiar ruta",
+    "refresh": "Actualizar",
+    "pickUpload": "Subir archivo…",
+    "fileTypes": {
+      "folder": "Carpeta",
+      "document": "Documento",
+      "link": "Enlace",
+      "other": "Otro"
+    }
+  }
+}

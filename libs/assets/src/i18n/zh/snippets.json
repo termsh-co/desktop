@@ -1,0 +1,87 @@
+{
+  "title": "代码片段",
+  "subtitle": "在此保存常用命令，一键发送到活动终端。",
+  "library": "库",
+  "addSnippet": "+ 添加片段",
+  "searchPlaceholder": "搜索片段…",
+  "loading": "加载中…",
+  "empty": "尚无代码片段。",
+  "noTags": "无标签",
+  "send": "发送",
+  "sendTitle": "发送到终端",
+  "sendDisabledTitle": "请先打开终端会话",
+  "deleteConfirm": "删除此片段？",
+  "drawer": {
+    "titleNew": "新片段",
+    "titleEdit": "编辑片段",
+    "subtitle": "让常用命令触手可及。",
+    "titleLabel": "标题",
+    "titlePlaceholder": "Deploy to prod",
+    "tagsLabel": "标签",
+    "tagsPlaceholder": "ops, ssh, db",
+    "bodyLabel": "片段",
+    "bodyPlaceholder": "echo \"hello\"\n",
+    "saving": "保存中…",
+    "errors": {
+      "titleRequired": "标题为必填项。",
+      "bodyRequired": "片段内容为必填项。"
+    }
+  },
+  "libraryDrawer": {
+    "title": "片段库",
+    "subtitle": "将现成命令添加到您的收藏。",
+    "add": "+ 添加"
+  },
+  "templates": {
+    "systemInfo": {
+      "title": "系统信息",
+      "body": "uname -a\necho '---'\ndf -h\necho '---'\nfree -h 2>/dev/null || vm_stat",
+      "tags": "system"
+    },
+    "diskUsage": {
+      "title": "磁盘用量（前 10）",
+      "body": "du -sh /* 2>/dev/null | sort -rh | head -10",
+      "tags": "system, disk"
+    },
+    "listeningPorts": {
+      "title": "监听端口",
+      "body": "ss -tlnp 2>/dev/null || netstat -an | grep LISTEN",
+      "tags": "network, system"
+    },
+    "dockerContainers": {
+      "title": "Docker 容器",
+      "body": "docker ps -a --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'",
+      "tags": "docker"
+    },
+    "dockerCleanup": {
+      "title": "Docker 清理",
+      "body": "docker system prune -af --volumes",
+      "tags": "docker"
+    },
+    "gitLog": {
+      "title": "Git 日志（简洁）",
+      "body": "git log --oneline --graph --decorate --all -20",
+      "tags": "git"
+    },
+    "topProcesses": {
+      "title": "CPU 占用最高的进程",
+      "body": "ps aux --sort=-%cpu | head -10",
+      "tags": "system"
+    },
+    "nginxReload": {
+      "title": "Nginx 重载",
+      "body": "sudo nginx -t && sudo systemctl reload nginx",
+      "tags": "nginx, ops"
+    },
+    "sslCertCheck": {
+      "title": "SSL 证书检查",
+      "body": "echo | openssl s_client -servername example.com -connect example.com:443 2>/dev/null | openssl x509 -noout -dates",
+      "tags": "ssl, ops"
+    },
+    "journalErrors": {
+      "title": "Journal 错误（最近一小时）",
+      "body": "journalctl --since '1 hour ago' -p err --no-pager",
+      "tags": "system, logs"
+    }
+  }
+}

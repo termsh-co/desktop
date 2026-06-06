@@ -1,0 +1,58 @@
+{
+  "view": {
+    "searchPlaceholder": "Search SFTP hosts…",
+    "addServer": "Add server",
+    "empty": "No servers yet. Add one to start browsing files via SFTP.",
+    "noResults": "No results.",
+    "connected": "Connected",
+    "editHostAria": "{{name}} — edit"
+  },
+  "explorer": {
+    "idleHint": "Select a server from the SFTP / FTP screen.",
+    "local": "Local",
+    "remote": "Remote",
+    "upload": "↑ Upload",
+    "download": "↓ Download",
+    "pickFile": "Choose file…",
+    "uploadSelectedTitle": "Upload selected file",
+    "downloadSelectedTitle": "Download selected file",
+    "retry": "Try again",
+    "localList": "Local list",
+    "filesCount": "{{count}} files",
+    "transferRunning": "…",
+    "transferDone": "done",
+    "transferError": "error",
+    "errors": {
+      "foldersCannotUpload": "Folders cannot be uploaded — select a file",
+      "noServerSession": "No server session",
+      "foldersCannotDownload": "Folders cannot be downloaded — select a file",
+      "symlinkCannotDownload": "Symlinks cannot be downloaded — double-click to open",
+      "localFolderNotLoaded": "Local folder not loaded yet"
+    }
+  },
+  "grid": {
+    "colName": "Name",
+    "colSize": "Size",
+    "colType": "Type",
+    "colModified": "Modified",
+    "emptyDir": "Empty directory",
+    "loading": "Loading…",
+    "dropTitle": "Drop files here",
+    "dropUpload": "Upload to server",
+    "dropDownload": "Download to this folder",
+    "parentDir": "Parent directory",
+    "open": "Open",
+    "goParent": "Go to parent",
+    "uploadToServer": "Upload to server",
+    "download": "Download",
+    "copyPath": "Copy path",
+    "refresh": "Refresh",
+    "pickUpload": "Upload file…",
+    "fileTypes": {
+      "folder": "Folder",
+      "document": "Document",
+      "link": "Link",
+      "other": "Other"
+    }
+  }
+}

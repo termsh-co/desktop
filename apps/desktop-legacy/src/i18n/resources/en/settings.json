@@ -1,0 +1,62 @@
+{
+  "title": "Settings",
+  "backToServers": "Servers",
+  "language": {
+    "title": "Language",
+    "desc": "Choose the interface language. Applies instantly across the app.",
+    "label": "Display language"
+  },
+  "theme": {
+    "title": "Theme",
+    "desc": "Interface and terminal colors change together.",
+    "names": {
+      "rego": "termsh",
+      "aurora": "Aurora",
+      "ember": "Ember",
+      "obsidian": "Obsidian",
+      "forest": "Forest",
+      "light": "Light"
+    }
+  },
+  "security": {
+    "title": "Security",
+    "desc": "Idle SSH sessions are closed automatically after the selected duration.",
+    "idleLabel": "Auto-close idle SSH after"
+  },
+  "sshIdle": {
+    "0": "Never",
+    "15": "15 minutes",
+    "30": "30 minutes",
+    "60": "60 minutes",
+    "120": "2 hours"
+  },
+  "terminal": {
+    "title": "Terminal",
+    "desc": "Font family and size apply instantly to all open terminal tabs.",
+    "fontLabel": "Font",
+    "sizeLabel": "Size",
+    "sizePx": "{{size}}px"
+  },
+  "sync": {
+    "title": "Sync",
+    "desc": "Zero-knowledge E2EE cloud sync. Server cannot read your data.",
+    "serverUrl": "Server URL",
+    "accessToken": "Access token",
+    "connectedAs": "Connected as {{email}}",
+    "notConnected": "Not connected",
+    "testConnection": "Test connection",
+    "pull": "Pull",
+    "push": "Push",
+    "autoSync": "Auto-sync every 5 minutes",
+    "serverRequired": "Server URL and access token are required.",
+    "serverUrlPlaceholder": "https://sync.termsh.app",
+    "accessTokenPlaceholder": "JWT access token"
+  },
+  "updates": {
+    "title": "Updates",
+    "desc": "Check and install updates from GitHub Releases.",
+    "version": "Version",
+    "checking": "Checking…",
+    "checkForUpdates": "Check for updates"
+  }
+}

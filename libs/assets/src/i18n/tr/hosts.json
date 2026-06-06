@@ -1,0 +1,72 @@
+{
+  "toolbar": {
+    "newHost": "Yeni host",
+    "terminal": "Terminal"
+  },
+  "empty": {
+    "message": "Henüz host yok. İlk sunucunuzu ekleyerek başlayın.",
+    "addButton": "Host ekle"
+  },
+  "drawer": {
+    "titleNew": "Yeni host",
+    "titleEdit": "Host düzenle",
+    "deleteHost": "Hostu sil",
+    "deleteConfirm": "\"{{name}}\" silinsin mi? Bu işlem geri alınamaz.",
+    "subNew": "SSH bağlantısı ekleyin",
+    "subEdit": "Bağlantı bilgilerini güncelleyin",
+    "displayName": "Görünen ad",
+    "hostname": "Hostname / IP",
+    "port": "Port",
+    "username": "Kullanıcı",
+    "platform": "İşletim sistemi",
+    "platformHint": "İşletim sistemi ikonu, ilk başarılı SSH bağlantısından sonra otomatik belirlenir.",
+    "authLegend": "Kimlik doğrulama",
+    "authPassword": "Parola",
+    "authPrivateKey": "Özel anahtar",
+    "tags": "Etiketler",
+    "group": "Grup",
+    "colorLabel": "Renk etiketi",
+    "colorAria": "Renk {{color}}",
+    "savedKey": "Kayıtlı anahtar",
+    "savedKeyNone": "Seçme (manuel PEM gir)",
+    "saving": "Kaydediliyor…",
+    "noCredentialWarn": "Bu host için kasada kayıtlı parola/anahtar yok. Bağlanmadan önce aşağıya girin ve kaydedin.",
+    "passwordLabel": "SSH parolası",
+    "passwordLabelNew": "SSH parolası (kasaya kaydedilir)",
+    "passwordPlaceholderChange": "Değiştirmek için yeni parola yazın",
+    "passwordPlaceholderVaultLater": "Kasa kurulunca kaydedilir",
+    "privateKeyLabel": "Özel anahtar (PEM)",
+    "privateKeyLabelNew": "PEM private key",
+    "privateKeyPlaceholderChange": "Değiştirmek için yeni anahtar yapıştırın",
+    "privateKeyPlaceholderVaultLater": "Kasa kurulunca kaydedilir",
+    "pemHeaderPlaceholder": "-----BEGIN OPENSSH PRIVATE KEY-----",
+    "placeholders": {
+      "displayName": "production-api",
+      "hostname": "192.168.1.10",
+      "username": "root",
+      "tags": "prod, web",
+      "group": "production"
+    },
+    "platforms": {
+      "linux": "Linux",
+      "ubuntu": "Ubuntu",
+      "debian": "Debian",
+      "centos": "RHEL / CentOS",
+      "fedora": "Fedora",
+      "alpine": "Alpine",
+      "arch": "Arch Linux",
+      "windows": "Windows",
+      "macos": "macOS",
+      "freebsd": "FreeBSD",
+      "unknown": "Bilinmiyor"
+    },
+    "noVaultHint": "Kasa olmadan host yer imi kaydedebilirsiniz. Parola kasa kurulana kadar saklanmaz — bağlanırken sorulur.",
+    "keepCredentialHint": "Boş alan = kasadaki mevcut parola/anahtar korunur. Bağlantıda da aynı kayıt kullanılır.",
+    "errors": {
+      "vaultRequiredForSave": "Parola veya anahtar kaydetmek için önce şifreli kasayı kurun (üst menüden Kasa).",
+      "passwordRequired": "SSH parolasını girin — kasaya kaydedilmeden bağlanılamaz.",
+      "privateKeyRequired": "PEM özel anahtarını girin — kasaya kaydedilmeden bağlanılamaz.",
+      "vaultRequiredForConnect": "SSH için parola veya anahtar gerekir. Önce Kasa ekranından şifreli kasayı kurun ve kilidi açın."
+    }
+  }
+}

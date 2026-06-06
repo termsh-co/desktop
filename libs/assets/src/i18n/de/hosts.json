@@ -1,0 +1,72 @@
+{
+  "toolbar": {
+    "newHost": "Neuer Host",
+    "terminal": "Terminal"
+  },
+  "empty": {
+    "message": "Noch keine Hosts. Füge deinen ersten Server hinzu.",
+    "addButton": "Host hinzufügen"
+  },
+  "drawer": {
+    "titleNew": "Neuer Host",
+    "titleEdit": "Host bearbeiten",
+    "deleteHost": "Host löschen",
+    "deleteConfirm": "\"{{name}}\" löschen? Dies kann nicht rückgängig gemacht werden.",
+    "subNew": "SSH-Verbindung hinzufügen",
+    "subEdit": "Verbindungsdaten aktualisieren",
+    "displayName": "Anzeigename",
+    "hostname": "Hostname / IP",
+    "port": "Port",
+    "username": "Benutzer",
+    "platform": "Betriebssystem",
+    "platformHint": "Das OS-Icon wird nach der ersten erfolgreichen SSH-Verbindung automatisch erkannt.",
+    "authLegend": "Authentifizierung",
+    "authPassword": "Passwort",
+    "authPrivateKey": "Privater Schlüssel",
+    "tags": "Tags",
+    "group": "Gruppe",
+    "colorLabel": "Farbmarkierung",
+    "colorAria": "Farbe {{color}}",
+    "savedKey": "Gespeicherter Schlüssel",
+    "savedKeyNone": "Keiner (PEM manuell eingeben)",
+    "saving": "Wird gespeichert…",
+    "noCredentialWarn": "Für diesen Host ist kein Passwort oder Schlüssel im Tresor gespeichert. Vor dem Verbinden unten eingeben.",
+    "passwordLabel": "SSH-Passwort",
+    "passwordLabelNew": "SSH-Passwort (im Tresor gespeichert)",
+    "passwordPlaceholderChange": "Neues Passwort zum Ändern eingeben",
+    "passwordPlaceholderVaultLater": "Wird gespeichert, wenn der Tresor eingerichtet ist",
+    "privateKeyLabel": "Privater Schlüssel (PEM)",
+    "privateKeyLabelNew": "PEM-Privatschlüssel",
+    "privateKeyPlaceholderChange": "Neuen Schlüssel zum Rotieren einfügen",
+    "privateKeyPlaceholderVaultLater": "Wird gespeichert, wenn der Tresor eingerichtet ist",
+    "pemHeaderPlaceholder": "-----BEGIN OPENSSH PRIVATE KEY-----",
+    "placeholders": {
+      "displayName": "production-api",
+      "hostname": "192.168.1.10",
+      "username": "root",
+      "tags": "prod, web",
+      "group": "production"
+    },
+    "platforms": {
+      "linux": "Linux",
+      "ubuntu": "Ubuntu",
+      "debian": "Debian",
+      "centos": "RHEL / CentOS",
+      "fedora": "Fedora",
+      "alpine": "Alpine",
+      "arch": "Arch Linux",
+      "windows": "Windows",
+      "macos": "macOS",
+      "freebsd": "FreeBSD",
+      "unknown": "Unbekannt"
+    },
+    "noVaultHint": "Host-Lesezeichen sind ohne Tresor möglich. Passwörter werden erst nach Tresor-Einrichtung gespeichert — beim Verbinden abgefragt.",
+    "keepCredentialHint": "Leer lassen = gespeichertes Passwort oder Schlüssel bleibt erhalten. Beim Verbinden wird derselbe Eintrag verwendet.",
+    "errors": {
+      "vaultRequiredForSave": "Richte zuerst den verschlüsselten Tresor ein, um Passwort oder Schlüssel zu speichern (Tresor im oberen Menü).",
+      "passwordRequired": "SSH-Passwort eingeben — Verbindung erfordert Speicherung im Tresor.",
+      "privateKeyRequired": "PEM-Privatschlüssel eingeben — Verbindung erfordert Speicherung im Tresor.",
+      "vaultRequiredForConnect": "SSH erfordert Passwort oder Schlüssel. Richte den Tresor ein und entsperre ihn zuerst."
+    }
+  }
+}

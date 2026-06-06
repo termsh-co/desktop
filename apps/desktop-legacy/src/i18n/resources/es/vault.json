@@ -1,0 +1,79 @@
+{
+  "title": "Bóveda segura",
+  "subtitle": "Las contraseñas SSH y claves privadas se cifran en tu dispositivo.",
+  "status": {
+    "notSetup": "Bóveda aún no configurada",
+    "unlocked": "Bóveda desbloqueada — secretos disponibles",
+    "locked": "Bóveda bloqueada"
+  },
+  "keychain": {
+    "enabled": "Llavero: desbloqueo automático activo en este dispositivo",
+    "disabled": "Llavero: no guardado. Marca recordar al desbloquear."
+  },
+  "biometric": {
+    "touchId": "Touch ID",
+    "faceId": "Face ID",
+    "windowsHello": "Windows Hello",
+    "generic": "Biometría",
+    "enabled": "{{method}}: desbloqueo rápido activo en este dispositivo"
+  },
+  "actions": {
+    "setup": "Configurar bóveda",
+    "lock": "Bloquear",
+    "unlock": "Desbloquear",
+    "forgetKeychain": "Olvidar llavero",
+    "forgetDeviceUnlock": "Quitar desbloqueo rápido"
+  },
+  "protectsTitle": "Qué protege la bóveda",
+  "protects": {
+    "passwords": "Contraseñas SSH (AES-256-GCM)",
+    "keys": "Claves privadas (ED25519 / RSA)",
+    "snippets": "Contenido de fragmentos",
+    "kdf": "Derivación de clave: Argon2id"
+  },
+  "unlock": {
+    "title": "Bóveda",
+    "subtitle": "Introduce tu contraseña maestra para desbloquear.",
+    "masterPassword": "Contraseña maestra",
+    "placeholder": "Introduce la contraseña maestra",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "rememberKeychain": "Recordar contraseña maestra en este Mac (Llavero)",
+    "useBiometric": "Desbloquear con {{method}} en este dispositivo",
+    "biometricButton": "Desbloquear con {{method}}",
+    "unlocking": "Desbloqueando…",
+    "unlockButton": "Desbloquear",
+    "footnote": "El terminal también funciona sin bóveda."
+  },
+  "setup": {
+    "title": "Bóveda cifrada",
+    "lead": "Tus contraseñas SSH y claves privadas se cifran en tu dispositivo. Opcional — terminal local y marcadores funcionan sin ella.",
+    "masterPassword": "Contraseña maestra",
+    "confirmPassword": "Confirmar contraseña",
+    "rememberKeychain": "Recordar contraseña maestra en este Mac (Llavero)",
+    "useBiometric": "Desbloquear con {{method}} en este dispositivo",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "creating": "Creando…",
+    "createButton": "Crear bóveda",
+    "skip": "Ahora no"
+  },
+  "gate": {
+    "initFailed": "No se pudo iniciar",
+    "devHint": "Desde la raíz del proyecto en terminal: <code>pnpm dev</code>",
+    "loading": "Cargando…"
+  },
+  "onboarding": {
+    "title": "¿Cómo quieres usar termsh?",
+    "subtitle": "termsh guarda contraseñas y claves cifradas — nunca en texto plano.",
+    "chooseSubtitle": "Elige cómo empezar. Puedes cambiarlo después en Ajustes.",
+    "localTitle": "Bóveda local",
+    "localLead": "Cifra contraseñas y claves solo en este dispositivo.",
+    "cloudTitle": "Sincronización en la nube",
+    "cloudLead": "Respalda hosts, snippets y claves entre dispositivos. El servidor solo ve datos cifrados.",
+    "cloudRequiresVault": "Requiere bóveda primero — tu contraseña maestra no sale de este dispositivo.",
+    "cloudNote": "La contraseña de la cuenta sync solo inicia sesión en la API.",
+    "setupButton": "Configurar bóveda",
+    "cloudSetupButton": "Configurar bóveda + sync",
+    "skipButton": "Continuar sin bóveda"
+  }
+}

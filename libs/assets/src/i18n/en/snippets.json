@@ -1,0 +1,87 @@
+{
+  "title": "Snippets",
+  "subtitle": "Keep common commands here. Send to the active terminal in one click.",
+  "library": "Library",
+  "addSnippet": "+ Add snippet",
+  "searchPlaceholder": "Search snippets…",
+  "loading": "Loading…",
+  "empty": "No snippets yet.",
+  "noTags": "No tags",
+  "send": "Send",
+  "sendTitle": "Send to terminal",
+  "sendDisabledTitle": "Open a terminal session first",
+  "deleteConfirm": "Delete this snippet?",
+  "drawer": {
+    "titleNew": "New snippet",
+    "titleEdit": "Edit snippet",
+    "subtitle": "Keep your common commands close.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Deploy to prod",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "ops, ssh, db",
+    "bodyLabel": "Snippet",
+    "bodyPlaceholder": "echo \"hello\"\n",
+    "saving": "Saving…",
+    "errors": {
+      "titleRequired": "Title is required.",
+      "bodyRequired": "Snippet content is required."
+    }
+  },
+  "libraryDrawer": {
+    "title": "Snippet library",
+    "subtitle": "Add ready-made commands to your collection.",
+    "add": "+ Add"
+  },
+  "templates": {
+    "systemInfo": {
+      "title": "System info",
+      "body": "uname -a\necho '---'\ndf -h\necho '---'\nfree -h 2>/dev/null || vm_stat",
+      "tags": "system"
+    },
+    "diskUsage": {
+      "title": "Disk usage (top 10)",
+      "body": "du -sh /* 2>/dev/null | sort -rh | head -10",
+      "tags": "system, disk"
+    },
+    "listeningPorts": {
+      "title": "Listening ports",
+      "body": "ss -tlnp 2>/dev/null || netstat -an | grep LISTEN",
+      "tags": "network, system"
+    },
+    "dockerContainers": {
+      "title": "Docker containers",
+      "body": "docker ps -a --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'",
+      "tags": "docker"
+    },
+    "dockerCleanup": {
+      "title": "Docker cleanup",
+      "body": "docker system prune -af --volumes",
+      "tags": "docker"
+    },
+    "gitLog": {
+      "title": "Git log (compact)",
+      "body": "git log --oneline --graph --decorate --all -20",
+      "tags": "git"
+    },
+    "topProcesses": {
+      "title": "Top processes (CPU)",
+      "body": "ps aux --sort=-%cpu | head -10",
+      "tags": "system"
+    },
+    "nginxReload": {
+      "title": "Nginx reload",
+      "body": "sudo nginx -t && sudo systemctl reload nginx",
+      "tags": "nginx, ops"
+    },
+    "sslCertCheck": {
+      "title": "SSL cert check",
+      "body": "echo | openssl s_client -servername example.com -connect example.com:443 2>/dev/null | openssl x509 -noout -dates",
+      "tags": "ssl, ops"
+    },
+    "journalErrors": {
+      "title": "Journal errors (last hour)",
+      "body": "journalctl --since '1 hour ago' -p err --no-pager",
+      "tags": "system, logs"
+    }
+  }
+}

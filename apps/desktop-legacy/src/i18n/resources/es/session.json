@@ -1,0 +1,21 @@
+{
+  "tabBarAria": "Pestañas de sesión",
+  "openSessionsAria": "Sesiones abiertas",
+  "terminalTitle": "Terminal / sesiones",
+  "terminal": "Terminal",
+  "closeSession": "Cerrar sesión",
+  "splitOff": "Vista dividida",
+  "splitVertical": "División vertical (clic: horizontal)",
+  "splitHorizontal": "División horizontal (clic: cerrar)",
+  "splitAria": "Vista dividida",
+  "newSession": {
+    "title": "Nueva sesión",
+    "localTerminal": "Terminal local",
+    "localHint": "Shell en este dispositivo",
+    "host": "Host",
+    "hostHint": "Conectar por SSH",
+    "back": "Atrás",
+    "hostsAria": "Hosts",
+    "noHosts": "Aún no hay hosts — añadir uno"
+  }
+}

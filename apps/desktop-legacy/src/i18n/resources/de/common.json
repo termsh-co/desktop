@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "servers": "Server",
+    "snippets": "Snippets",
+    "vault": "Tresor",
+    "keys": "Schlüssel",
+    "settings": "Einstellungen",
+    "navigation": "Navigation",
+    "pages": "Seiten"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "retry": "Erneut versuchen",
+    "copy": "Kopieren",
+    "done": "Fertig"
+  },
+  "status": {
+    "ssh": "SSH · {{user}}@{{host}}",
+    "remote": "{{protocol}} · {{user}}@{{host}}",
+    "local": "PTY · lokal",
+    "disconnected": "Nicht verbunden",
+    "sessions": "{{count}} Sitzungen",
+    "vaultNone": "Kein Tresor",
+    "vaultUnlocked": "Tresor entsperrt",
+    "vaultLocked": "Tresor gesperrt",
+    "hosts": "{{count}} Hosts",
+    "syncConnected": "sync · {{email}}",
+    "syncNoConnection": "sync · keine Verbindung",
+    "syncOff": "sync aus"
+  },
+  "runtime": {
+    "notTauri": "Desktop-App läuft nicht. Verwende `pnpm dev` im Projektroot (nicht nur Vite/Browser)."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-06-05T11:43:02.609Z",
+  "appVersion": "0.3.0",
+  "latestRelease": "0.3.0",
+  "releases": [
+    {
+      "version": "Unreleased",
+      "date": null,
+      "unreleased": true,
+      "sections": {
+        "Added": []
+      }
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-06-04",
+      "unreleased": false,
+      "sections": {
+        "Added": [
+          "Slim icon sidebar replaces bottom dock — cleaner navigation",
+          "Host/SFTP segment switch in the header with animated indicator",
+          "Host grid view — cards side by side instead of vertical list",
+          "Clean session tab styling with rounded borders and accent highlight",
+          "Header avatar placeholder for future account/sync features",
+          "Focus trapping for drawers and modals (keyboard accessibility)",
+          "Keyboard navigation in file explorer (arrow keys, Enter)",
+          "File explorer grid rows show keyboard focus indicators",
+          "Header window drag via native API — drag from empty spaces",
+          "Sync delete command (server + client fully wired)",
+          "Auto-sync toggle with 5-minute background timer",
+          "Specific content for all legal pages (Terms, Privacy, Blog, etc.)"
+        ],
+        "Changed": [
+          "Hosts and SFTP share one \"Servers\" view with segment toggle",
+          "Header search bar centered with proper spacing",
+          "Settings screen now renders alongside other views with consistent layout",
+          "Settings cards redesigned with icons, better spacing, hover effects",
+          "Session tabs now show clean rounded style instead of browser-style tabs",
+          "Vault page simplified — status dot indicator, encryption feature list",
+          "SFTP list uses folder icon instead of text badge",
+          "SFTP view toolbar matches host view for visual consistency"
+        ],
+        "Fixed": [
+          "SSH connection failure no longer shows blank terminal",
+          "Terminal font changes apply instantly from Settings",
+          "Windows SSH home directory resolution ($HOME → $USERPROFILE)",
+          "Linux and Windows bundle targets added to release CI",
+          "Header empty spaces now draggable for window movement",
+          "Segment switch indicator properly fits both buttons",
+          "Gear icon added for Settings in sidebar",
+          "ftp directory listings now show file type, size, and dates"
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-06-03",
+      "unreleased": false,
+      "sections": {
+        "Added": [
+          "Light mode theme — switch between dark and clean white UI",
+          "Terminal font family and size settings (JetBrains Mono, SF Mono, Fira Code, more)",
+          "Remote file browser list now uses the same card style as the host list",
+          "Live status bar: active connection, session count, vault, host count, sync status",
+          "Closing a session tab now also terminates the process on exit",
+          "Performance benchmark script and report template",
+          "Zero-Knowledge E2EE cloud sync backend (FastAPI + PostgreSQL + Docker)",
+          "Client-side AES-256-GCM encryption layer for cloud sync",
+          "Cloud sync configuration in Settings (server URL, token, pull/push)"
+        ],
+        "Changed": [
+          "SSH connect screen: modern dot-wave animation replaces globe loader",
+          "Failed connection screen: cleaner \"Bağlanamadı\" with retry, edit, close buttons",
+          "FTP file listings now show file type, size, and modification date",
+          "Vault view: status dot indicator + encryption feature list",
+          "Status bar replaces placeholder ping with live host count",
+          "Remote site rows now use consistent host-row design with SFTP badge",
+          "All UI colors now adapt to light mode via CSS theme tokens"
+        ],
+        "Fixed": [
+          "SSH connection failures no longer leave a blank terminal — error screen shown",
+          "Terminal font changes from Settings now apply immediately",
+          "Cross-platform SSH home directory resolution on Windows",
+          "Release workflow supports Linux (deb/AppImage) and Windows (NSIS) builds"
+        ]
+      }
+    },
+    {
+      "version": "0.1.2",
+      "date": "2026-06-02",
+      "unreleased": false,
+      "sections": {
+        "Added": [
+          "Updates in this release — see termsh.app/changelog for details."
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-06-01",
+      "unreleased": false,
+      "sections": {
+        "Added": [
+          "Unlock the vault with macOS Keychain so you can open termsh without entering your master password every time",
+          "Option to forget saved Keychain access from Vault settings",
+          "App version shown in Settings",
+          "Release notes on the website"
+        ],
+        "Changed": [
+          "Refined top bar on macOS — navigation and window controls line up more cleanly",
+          "Clearer app icon in the Dock and installer",
+          "Command palette shortcuts to Snippets and Keys"
+        ],
+        "Fixed": [
+          "Improved overall stability of the desktop app"
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-06-01",
+      "unreleased": false,
+      "sections": {
+        "Added": [
+          "First termsh release for macOS — SSH sessions and a local terminal in tabs",
+          "Encrypted vault for passwords and SSH keys",
+          "Host library with search, tags, and colours",
+          "Quick command palette (⌘K) and keyboard shortcuts",
+          "Menu bar shortcut and built-in themes",
+          "Host cards show the server type when termsh can detect it"
+        ]
+      }
+    }
+  ]
+}

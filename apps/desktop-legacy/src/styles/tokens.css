@@ -1,0 +1,266 @@
+/**
+ * termsh — UI + terminal temaları
+ * Varsayılan: rego (termsh navy #001d49)
+ */
+:root,
+[data-theme="rego"] {
+  color-scheme: dark;
+
+  --termsh-brand-primary: #001d49;
+  --termsh-brand-secondary: #000d24;
+  --termsh-brand-white: #ffffff;
+
+  /* Ana krom #001d49 — marka rengi doğrudan header/sidebar/panel */
+  --s-toolbar: #001d49;
+  --s-bg: #001d49;
+  --s-bg-deep: #000d24;
+  --s-sidebar: #001d49;
+  --s-panel: #001d49;
+  --s-surface: #0a2550;
+  --s-card: #0f2d5c;
+  --s-card-hover: #153666;
+  --s-terminal: #000d24;
+  --s-elevated: #0f2d5c;
+  --s-glass: #0f2d5c;
+  --s-line: rgba(255, 255, 255, 0.08);
+  --s-line-strong: rgba(255, 255, 255, 0.12);
+
+  --s-text: #ffffff;
+  --s-muted: rgba(255, 255, 255, 0.58);
+  --s-faint: rgba(255, 255, 255, 0.36);
+
+  /* Vurgu: marka lacivert üzerinde görünür mavi ton */
+  --s-accent: #5eb0ff;
+  --s-accent-dim: #248eff;
+  --s-accent-bg: rgba(94, 176, 255, 0.16);
+  --s-accent-border: rgba(94, 176, 255, 0.45);
+  --s-accent-glow: none;
+
+  --s-local: #5eb8ff;
+  --s-danger: #ff6b6b;
+  --s-success: #4ade80;
+
+  /* macOS titlebar bandı ile senkron (macos_titlebar.rs) */
+  --termsh-header-height: 52px;
+  --termsh-status-height: 26px;
+  --termsh-drawer-top: 0;
+  --termsh-drawer-bottom: var(--termsh-status-height);
+  --termsh-session-bar-height: 38px;
+  --termsh-chrome-height: 36px;
+  --termsh-tab-height: 32px;
+  --termsh-titlebar-inset: 80px;
+  --termsh-radius: 10px;
+  --termsh-radius-lg: 12px;
+  --termsh-radius-sm: 6px;
+  --termsh-radius-pill: 999px;
+  --termsh-radius-button: var(--termsh-radius-pill);
+
+  --termsh-font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --termsh-font-mono: "SF Mono", "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --termsh-ease: 0.15s ease;
+
+  /* Semantik overlay / hover / shadow (dark defaults) */
+  --s-hover: rgba(255, 255, 255, 0.06);
+  --s-hover-dim: rgba(255, 255, 255, 0.03);
+  --s-overlay: rgba(0, 0, 0, 0.5);
+  --s-glass-bg: rgba(0, 29, 73, 0.94);
+  --s-glass-border: rgba(255, 255, 255, 0.10);
+  --s-dropdown-bg: rgba(28, 30, 36, 0.98);
+  --s-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  --s-shadow-strong: 0 24px 64px rgba(0, 0, 0, 0.5);
+  --s-sidebar-link-color: rgba(255, 255, 255, 0.78);
+  --s-vault-input-bg: rgba(0, 0, 0, 0.22);
+  --s-vault-input-focus-bg: rgba(0, 0, 0, 0.32);
+}
+
+/* Nord esintili — soğuk gri-mavi */
+[data-theme="aurora"] {
+  color-scheme: dark;
+
+  --termsh-brand-primary: #88c0d0;
+  --termsh-brand-secondary: #242933;
+  --termsh-brand-white: #eceff4;
+
+  --s-bg: #242933;
+  --s-bg-deep: #1a1f29;
+  --s-sidebar: #2a3140;
+  --s-panel: #1e2430;
+  --s-surface: #2e3440;
+  --s-card: #343b4a;
+  --s-card-hover: #3b4252;
+  --s-toolbar: #252b38;
+  --s-terminal: #1a1f29;
+  --s-elevated: #343b4a;
+  --s-glass: #2e3440;
+  --s-line: rgba(236, 239, 244, 0.08);
+  --s-line-strong: rgba(236, 239, 244, 0.14);
+
+  --s-text: #eceff4;
+  --s-muted: rgba(216, 222, 233, 0.62);
+  --s-faint: rgba(216, 222, 233, 0.38);
+
+  --s-accent: #88c0d0;
+  --s-accent-dim: #5e81ac;
+  --s-accent-bg: rgba(136, 192, 208, 0.16);
+  --s-accent-border: rgba(136, 192, 208, 0.45);
+
+  --s-local: #8fbcbb;
+  --s-danger: #bf616a;
+  --s-success: #a3be8c;
+}
+
+/* Gruvbox esintili — sıcak amber */
+[data-theme="ember"] {
+  color-scheme: dark;
+
+  --termsh-brand-primary: #fabd2f;
+  --termsh-brand-secondary: #1d2021;
+  --termsh-brand-white: #fbf1c7;
+
+  --s-bg: #1d2021;
+  --s-bg-deep: #161819;
+  --s-sidebar: #252829;
+  --s-panel: #1a1c1d;
+  --s-surface: #282828;
+  --s-card: #32302f;
+  --s-card-hover: #3c3836;
+  --s-toolbar: #232526;
+  --s-terminal: #1d2021;
+  --s-elevated: #32302f;
+  --s-glass: #282828;
+  --s-line: rgba(251, 241, 199, 0.08);
+  --s-line-strong: rgba(251, 241, 199, 0.13);
+
+  --s-text: #fbf1c7;
+  --s-muted: rgba(235, 219, 178, 0.62);
+  --s-faint: rgba(235, 219, 178, 0.38);
+
+  --s-accent: #fabd2f;
+  --s-accent-dim: #d79921;
+  --s-accent-bg: rgba(250, 189, 47, 0.14);
+  --s-accent-border: rgba(250, 189, 47, 0.42);
+
+  --s-local: #8ec07c;
+  --s-danger: #fb4934;
+  --s-success: #b8bb26;
+}
+
+/* Catppuccin Mocha esintili — mor-lavanta */
+[data-theme="obsidian"] {
+  color-scheme: dark;
+
+  --termsh-brand-primary: #cba6f7;
+  --termsh-brand-secondary: #181825;
+  --termsh-brand-white: #cdd6f4;
+
+  --s-bg: #181825;
+  --s-bg-deep: #11111b;
+  --s-sidebar: #1e1e2e;
+  --s-panel: #14141f;
+  --s-surface: #1e1e2e;
+  --s-card: #262637;
+  --s-card-hover: #313244;
+  --s-toolbar: #1a1a28;
+  --s-terminal: #11111b;
+  --s-elevated: #262637;
+  --s-glass: #1e1e2e;
+  --s-line: rgba(205, 214, 244, 0.08);
+  --s-line-strong: rgba(205, 214, 244, 0.13);
+
+  --s-text: #cdd6f4;
+  --s-muted: rgba(186, 194, 222, 0.62);
+  --s-faint: rgba(186, 194, 222, 0.38);
+
+  --s-accent: #cba6f7;
+  --s-accent-dim: #b4befe;
+  --s-accent-bg: rgba(203, 166, 247, 0.16);
+  --s-accent-border: rgba(203, 166, 247, 0.45);
+
+  --s-local: #94e2d5;
+  --s-danger: #f38ba8;
+  --s-success: #a6e3a1;
+}
+
+/* Everforest esintili — yeşil-gri doğa */
+[data-theme="forest"] {
+  color-scheme: dark;
+
+  --termsh-brand-primary: #a7c080;
+  --termsh-brand-secondary: #2b3339;
+  --termsh-brand-white: #ddedc7;
+
+  --s-bg: #2b3339;
+  --s-bg-deep: #232a2e;
+  --s-sidebar: #323c41;
+  --s-panel: #262f34;
+  --s-surface: #343f44;
+  --s-card: #3d484d;
+  --s-card-hover: #475258;
+  --s-toolbar: #2f383d;
+  --s-terminal: #2b3339;
+  --s-elevated: #3d484d;
+  --s-glass: #343f44;
+  --s-line: rgba(221, 237, 199, 0.08);
+  --s-line-strong: rgba(221, 237, 199, 0.13);
+
+  --s-text: #ddedc7;
+  --s-muted: rgba(211, 198, 170, 0.62);
+  --s-faint: rgba(211, 198, 170, 0.38);
+
+  --s-accent: #a7c080;
+  --s-accent-dim: #83c092;
+  --s-accent-bg: rgba(167, 192, 128, 0.14);
+  --s-accent-border: rgba(167, 192, 128, 0.42);
+
+  --s-local: #7fbbb3;
+  --s-danger: #e67e80;
+  --s-success: #a7c080;
+}
+
+/* Light — termsh marka lacivert, temiz beyaz arka plan */
+[data-theme="light"] {
+  color-scheme: light;
+
+  --termsh-brand-primary: #001d49;
+  --termsh-brand-secondary: #000d24;
+  --termsh-brand-white: #ffffff;
+
+  --s-bg: #f5f5f7;
+  --s-bg-deep: #eaeaed;
+  --s-sidebar: #eeeeef;
+  --s-panel: #ffffff;
+  --s-surface: #fafafa;
+  --s-card: #ffffff;
+  --s-card-hover: #f2f3f5;
+  --s-toolbar: #f8f8fa;
+  --s-terminal: #ffffff;
+  --s-elevated: #ffffff;
+  --s-glass: rgba(255, 255, 255, 0.85);
+  --s-line: rgba(0, 0, 0, 0.08);
+  --s-line-strong: rgba(0, 0, 0, 0.13);
+
+  --s-text: #1d1d1f;
+  --s-muted: rgba(0, 0, 0, 0.52);
+  --s-faint: rgba(0, 0, 0, 0.35);
+
+  --s-accent: #001d49;
+  --s-accent-dim: #1a4a8a;
+  --s-accent-bg: rgba(0, 29, 73, 0.08);
+  --s-accent-border: rgba(0, 29, 73, 0.32);
+
+  --s-local: #248eff;
+  --s-danger: #d73a49;
+  --s-success: #22863a;
+
+  --s-hover: rgba(0, 0, 0, 0.04);
+  --s-hover-dim: rgba(0, 0, 0, 0.02);
+  --s-overlay: rgba(0, 0, 0, 0.3);
+  --s-glass-bg: rgba(255, 255, 255, 0.96);
+  --s-glass-border: rgba(0, 0, 0, 0.08);
+  --s-dropdown-bg: rgba(255, 255, 255, 0.98);
+  --s-shadow: 0 24px 60px rgba(0, 0, 0, 0.10);
+  --s-shadow-strong: 0 24px 64px rgba(0, 0, 0, 0.15);
+  --s-sidebar-link-color: rgba(0, 0, 0, 0.65);
+  --s-vault-input-bg: rgba(0, 0, 0, 0.04);
+  --s-vault-input-focus-bg: rgba(0, 0, 0, 0.06);
+}

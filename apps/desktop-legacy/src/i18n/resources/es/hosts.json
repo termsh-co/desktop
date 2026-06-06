@@ -1,0 +1,70 @@
+{
+  "toolbar": {
+    "newHost": "Nuevo host",
+    "terminal": "Terminal"
+  },
+  "empty": {
+    "message": "Aún no hay hosts. Añade tu primer servidor para empezar.",
+    "addButton": "Añadir host"
+  },
+  "drawer": {
+    "titleNew": "Nuevo host",
+    "titleEdit": "Editar host",
+    "subNew": "Añadir conexión SSH",
+    "subEdit": "Actualizar datos de conexión",
+    "displayName": "Nombre visible",
+    "hostname": "Hostname / IP",
+    "port": "Puerto",
+    "username": "Usuario",
+    "platform": "Sistema operativo",
+    "platformHint": "Puede actualizarse automáticamente desde el banner SSH en la primera conexión.",
+    "authLegend": "Autenticación",
+    "authPassword": "Contraseña",
+    "authPrivateKey": "Clave privada",
+    "tags": "Etiquetas",
+    "group": "Grupo",
+    "colorLabel": "Etiqueta de color",
+    "colorAria": "Color {{color}}",
+    "savedKey": "Clave guardada",
+    "savedKeyNone": "Ninguna (introducir PEM manualmente)",
+    "saving": "Guardando…",
+    "noCredentialWarn": "No hay contraseña ni clave guardada en la bóveda para este host. Introdúcela abajo antes de conectar.",
+    "passwordLabel": "Contraseña SSH",
+    "passwordLabelNew": "Contraseña SSH (se guarda en la bóveda)",
+    "passwordPlaceholderChange": "Escribe una nueva contraseña para cambiar",
+    "passwordPlaceholderVaultLater": "Se guardará al configurar la bóveda",
+    "privateKeyLabel": "Clave privada (PEM)",
+    "privateKeyLabelNew": "Clave privada PEM",
+    "privateKeyPlaceholderChange": "Pega una nueva clave para rotar",
+    "privateKeyPlaceholderVaultLater": "Se guardará al configurar la bóveda",
+    "pemHeaderPlaceholder": "-----BEGIN OPENSSH PRIVATE KEY-----",
+    "placeholders": {
+      "displayName": "production-api",
+      "hostname": "192.168.1.10",
+      "username": "root",
+      "tags": "prod, web",
+      "group": "production"
+    },
+    "platforms": {
+      "linux": "Linux",
+      "ubuntu": "Ubuntu",
+      "debian": "Debian",
+      "centos": "RHEL / CentOS",
+      "fedora": "Fedora",
+      "alpine": "Alpine",
+      "arch": "Arch Linux",
+      "windows": "Windows",
+      "macos": "macOS",
+      "freebsd": "FreeBSD",
+      "unknown": "Desconocido"
+    },
+    "noVaultHint": "Puedes guardar marcadores sin bóveda. Las contraseñas no se guardan hasta configurar la bóveda — se pedirán al conectar.",
+    "keepCredentialHint": "Dejar en blanco conserva la contraseña o clave guardada. Se usa el mismo registro al conectar.",
+    "errors": {
+      "vaultRequiredForSave": "Configura primero la bóveda cifrada para guardar contraseña o clave (Bóveda en el menú superior).",
+      "passwordRequired": "Introduce la contraseña SSH — no se puede conectar sin guardarla en la bóveda.",
+      "privateKeyRequired": "Introduce la clave privada PEM — no se puede conectar sin guardarla en la bóveda.",
+      "vaultRequiredForConnect": "SSH requiere contraseña o clave. Configura y desbloquea la bóveda desde la pantalla Bóveda."
+    }
+  }
+}

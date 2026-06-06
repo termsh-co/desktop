@@ -1,0 +1,75 @@
+{
+  "title": "Ayarlar",
+  "backToServers": "Sunucular",
+  "language": {
+    "title": "Dil",
+    "desc": "Arayüz dilini seçin. Değişiklik anında uygulanır.",
+    "label": "Görüntüleme dili"
+  },
+  "theme": {
+    "title": "Tema",
+    "desc": "Arayüz ve terminal renkleri birlikte değişir.",
+    "names": {
+      "rego": "termsh",
+      "aurora": "Aurora",
+      "ember": "Ember",
+      "obsidian": "Obsidyen",
+      "forest": "Orman",
+      "light": "Açık"
+    }
+  },
+  "security": {
+    "title": "Güvenlik",
+    "desc": "Boşta kalan SSH oturumları seçilen süre sonunda otomatik kapatılır.",
+    "idleLabel": "Boşta SSH oturumunu kapat"
+  },
+  "vaultAutoLock": {
+    "label": "Hareketsizlikte kasayı kilitle",
+    "0": "Asla",
+    "5": "5 dakika",
+    "15": "15 dakika",
+    "30": "30 dakika",
+    "60": "60 dakika"
+  },
+  "sshIdle": {
+    "0": "Asla",
+    "15": "15 dakika",
+    "30": "30 dakika",
+    "60": "60 dakika",
+    "120": "2 saat"
+  },
+  "terminal": {
+    "title": "Terminal",
+    "desc": "Yazı tipi ve boyut tüm açık terminal sekmelerine anında uygulanır.",
+    "fontLabel": "Yazı tipi",
+    "sizeLabel": "Boyut",
+    "sizePx": "{{size}}px"
+  },
+  "sync": {
+    "title": "Senkronizasyon",
+    "desc": "Sıfır bilgi E2EE bulut senkronizasyonu. Sunucu verilerinizi okuyamaz.",
+    "serverUrl": "Sunucu adresi",
+    "accessToken": "Erişim jetonu",
+    "connectedAs": "{{email}} olarak bağlı",
+    "notConnected": "Bağlı değil",
+    "testConnection": "Bağlantıyı test et",
+    "pull": "Çek",
+    "push": "Gönder",
+    "autoSync": "Her 5 dakikada otomatik senkronize et",
+    "serverRequired": "Sunucu adresi ve erişim token'ı gerekli.",
+    "serverUrlPlaceholder": "https://sync.termsh.app",
+    "accessTokenPlaceholder": "JWT erişim token'ı"
+  },
+  "updates": {
+    "title": "Güncellemeler",
+    "desc": "GitHub Releases üzerinden güncellemeleri kontrol edin ve yükleyin.",
+    "version": "Sürüm",
+    "coreEngine": "Çekirdek motor",
+    "checking": "Kontrol ediliyor…",
+    "checkForUpdates": "Güncellemeleri kontrol et",
+    "install": "Güncellemeyi yükle",
+    "installing": "Yükleniyor…",
+    "updateAvailable": "{{version}} sürümü mevcut.",
+    "devOnly": "Güncellemeler yalnızca paketlenmiş sürümlerde kullanılabilir."
+  }
+}

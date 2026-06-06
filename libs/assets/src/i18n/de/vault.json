@@ -1,0 +1,79 @@
+{
+  "title": "Sicherer Tresor",
+  "subtitle": "SSH-Passwörter und private Schlüssel werden auf deinem Gerät verschlüsselt.",
+  "status": {
+    "notSetup": "Tresor noch nicht eingerichtet",
+    "unlocked": "Tresor entsperrt — Geheimnisse verfügbar",
+    "locked": "Tresor gesperrt"
+  },
+  "keychain": {
+    "enabled": "Schlüsselbund: automatisches Entsperren auf diesem Gerät aktiv",
+    "disabled": "Schlüsselbund: nicht gespeichert. Beim Entsperren „Merken“ aktivieren."
+  },
+  "biometric": {
+    "touchId": "Touch ID",
+    "faceId": "Face ID",
+    "windowsHello": "Windows Hello",
+    "generic": "Biometrie",
+    "enabled": "{{method}}: Schnellentsperrung auf diesem Gerät aktiv"
+  },
+  "actions": {
+    "setup": "Tresor einrichten",
+    "lock": "Sperren",
+    "unlock": "Entsperren",
+    "forgetKeychain": "Schlüsselbund vergessen",
+    "forgetDeviceUnlock": "Schnellentsperrung entfernen"
+  },
+  "protectsTitle": "Was der Tresor schützt",
+  "protects": {
+    "passwords": "SSH-Passwörter (AES-256-GCM)",
+    "keys": "Private Schlüssel (ED25519 / RSA)",
+    "snippets": "Snippet-Inhalte",
+    "kdf": "Schlüsselableitung: Argon2id"
+  },
+  "unlock": {
+    "title": "Tresor",
+    "subtitle": "Gib dein Hauptpasswort ein, um zu entsperren.",
+    "masterPassword": "Hauptpasswort",
+    "placeholder": "Hauptpasswort eingeben",
+    "showPassword": "Passwort anzeigen",
+    "hidePassword": "Passwort verbergen",
+    "rememberKeychain": "Hauptpasswort auf diesem Mac merken (Schlüsselbund)",
+    "useBiometric": "Mit {{method}} auf diesem Gerät entsperren",
+    "biometricButton": "Mit {{method}} entsperren",
+    "unlocking": "Wird entsperrt…",
+    "unlockButton": "Entsperren",
+    "footnote": "Terminal funktioniert auch ohne Tresor."
+  },
+  "setup": {
+    "title": "Verschlüsselter Tresor",
+    "lead": "SSH-Passwörter und private Schlüssel werden auf deinem Gerät verschlüsselt. Optional — lokales Terminal und Host-Lesezeichen funktionieren ohne.",
+    "masterPassword": "Hauptpasswort",
+    "confirmPassword": "Passwort bestätigen",
+    "rememberKeychain": "Hauptpasswort auf diesem Mac merken (Schlüsselbund)",
+    "useBiometric": "Mit {{method}} auf diesem Gerät entsperren",
+    "passwordMismatch": "Passwörter stimmen nicht überein",
+    "creating": "Wird erstellt…",
+    "createButton": "Tresor erstellen",
+    "skip": "Nicht jetzt"
+  },
+  "gate": {
+    "initFailed": "Start fehlgeschlagen",
+    "devHint": "Im Projektroot im Terminal: <code>pnpm dev</code>",
+    "loading": "Wird geladen…"
+  },
+  "onboarding": {
+    "title": "Wie möchten Sie termsh nutzen?",
+    "subtitle": "termsh speichert SSH-Passwörter und Schlüssel verschlüsselt — nie im Klartext.",
+    "chooseSubtitle": "Wählen Sie einen Startweg. Später in den Einstellungen änderbar.",
+    "localTitle": "Lokaler Tresor",
+    "localLead": "Passwörter und Schlüssel nur auf diesem Gerät verschlüsseln.",
+    "cloudTitle": "Cloud-Sync",
+    "cloudLead": "Hosts, Snippets und Schlüssel geräteübergreifend sichern. Der Server sieht nur Chiffretext.",
+    "cloudRequiresVault": "Tresor zuerst erforderlich — Ihr Master-Passwort verlässt dieses Gerät nie.",
+    "cloudNote": "Das Sync-Kontopasswort meldet Sie nur an der API an.",
+    "setupButton": "Tresor einrichten",
+    "cloudSetupButton": "Tresor + Cloud-Sync einrichten",
+    "skipButton": "Ohne Tresor fortfahren"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Keys",
+  "subtitle": "Manage SSH private keys. Stored encrypted in your vault.",
+  "addKey": "+ Add key",
+  "searchPlaceholder": "Search keys…",
+  "vaultLocked": "Vault is locked. Unlock it to add or edit keys.",
+  "empty": "No keys yet.",
+  "deleteConfirm": "Delete this key?",
+  "drawer": {
+    "titleAdd": "Add key",
+    "titleEdit": "Edit key",
+    "titleCreated": "Key created",
+    "subtitleStored": "Stored encrypted in your vault.",
+    "subtitleCreated": "Copy the public key to your server authorized_keys.",
+    "modeAria": "Add key mode",
+    "generate": "Generate",
+    "import": "Import",
+    "nameLabel": "Name",
+    "namePlaceholder": "Prod SSH key",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "prod, ops",
+    "algorithmLabel": "Algorithm",
+    "algorithmEd25519": "Ed25519 (recommended)",
+    "algorithmRsa": "RSA 4096",
+    "privateKeyLabel": "Private key (PEM)",
+    "privateKeyPlaceholderNew": "-----BEGIN OPENSSH PRIVATE KEY-----\n...\n-----END OPENSSH PRIVATE KEY-----",
+    "privateKeyPlaceholderRotate": "Optional — paste a new key to rotate",
+    "publicKeyLabel": "Public key",
+    "saving": "Saving…",
+    "generating": "Generating…",
+    "done": "Done",
+    "errors": {
+      "nameRequired": "Name is required.",
+      "privateKeyRequired": "Private key is required.",
+      "generateUnavailable": "Key generation is not available.",
+      "copyFailed": "Could not copy to clipboard."
+    }
+  }
+}

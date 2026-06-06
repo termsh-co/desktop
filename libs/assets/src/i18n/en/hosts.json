@@ -1,0 +1,72 @@
+{
+  "toolbar": {
+    "newHost": "New host",
+    "terminal": "Terminal"
+  },
+  "empty": {
+    "message": "No hosts yet. Add your first server to get started.",
+    "addButton": "Add host"
+  },
+  "drawer": {
+    "titleNew": "New host",
+    "titleEdit": "Edit host",
+    "deleteHost": "Delete host",
+    "deleteConfirm": "Delete \"{{name}}\"? This cannot be undone.",
+    "subNew": "Add an SSH connection",
+    "subEdit": "Update connection details",
+    "displayName": "Display name",
+    "hostname": "Hostname / IP",
+    "port": "Port",
+    "username": "Username",
+    "platform": "Operating system",
+    "platformHint": "The OS icon is detected automatically after the first successful SSH connection.",
+    "authLegend": "Authentication",
+    "authPassword": "Password",
+    "authPrivateKey": "Private key",
+    "tags": "Tags",
+    "group": "Group",
+    "colorLabel": "Color tag",
+    "colorAria": "Color {{color}}",
+    "savedKey": "Saved key",
+    "savedKeyNone": "None (enter PEM manually)",
+    "saving": "Saving…",
+    "noCredentialWarn": "No password or key stored in the vault for this host. Enter one below before connecting.",
+    "passwordLabel": "SSH password",
+    "passwordLabelNew": "SSH password (saved to vault)",
+    "passwordPlaceholderChange": "Enter a new password to change",
+    "passwordPlaceholderVaultLater": "Saved when vault is set up",
+    "privateKeyLabel": "Private key (PEM)",
+    "privateKeyLabelNew": "PEM private key",
+    "privateKeyPlaceholderChange": "Paste a new key to rotate",
+    "privateKeyPlaceholderVaultLater": "Saved when vault is set up",
+    "pemHeaderPlaceholder": "-----BEGIN OPENSSH PRIVATE KEY-----",
+    "placeholders": {
+      "displayName": "production-api",
+      "hostname": "192.168.1.10",
+      "username": "root",
+      "tags": "prod, web",
+      "group": "production"
+    },
+    "platforms": {
+      "linux": "Linux",
+      "ubuntu": "Ubuntu",
+      "debian": "Debian",
+      "centos": "RHEL / CentOS",
+      "fedora": "Fedora",
+      "alpine": "Alpine",
+      "arch": "Arch Linux",
+      "windows": "Windows",
+      "macos": "macOS",
+      "freebsd": "FreeBSD",
+      "unknown": "Unknown"
+    },
+    "noVaultHint": "You can save host bookmarks without a vault. Passwords are not stored until you set up Vault — you will be asked when connecting.",
+    "keepCredentialHint": "Leave blank to keep the stored password or key. The same record is used when connecting.",
+    "errors": {
+      "vaultRequiredForSave": "Set up the encrypted vault first to save a password or key (Vault in the top menu).",
+      "passwordRequired": "Enter the SSH password — connection requires saving it to the vault.",
+      "privateKeyRequired": "Enter the PEM private key — connection requires saving it to the vault.",
+      "vaultRequiredForConnect": "SSH requires a password or key. Set up and unlock the vault from the Vault screen first."
+    }
+  }
+}

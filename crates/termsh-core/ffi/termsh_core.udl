@@ -1,0 +1,3 @@
+namespace termsh_core {
+    string core_version();
+};

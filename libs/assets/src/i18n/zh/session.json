@@ -1,0 +1,21 @@
+{
+  "tabBarAria": "会话标签",
+  "openSessionsAria": "打开的会话",
+  "terminalTitle": "终端 / 会话",
+  "terminal": "终端",
+  "closeSession": "关闭会话",
+  "splitOff": "分屏视图",
+  "splitVertical": "垂直分屏（点击：水平）",
+  "splitHorizontal": "水平分屏（点击：关闭）",
+  "splitAria": "分屏视图",
+  "newSession": {
+    "title": "新会话",
+    "localTerminal": "本地终端",
+    "localHint": "此设备上的 shell",
+    "host": "主机",
+    "hostHint": "通过 SSH 连接",
+    "back": "返回",
+    "hostsAria": "主机",
+    "noHosts": "尚无主机 — 添加一个"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "searchPlaceholder": "搜索…",
+  "searchAria": "搜索",
+  "empty": "无结果",
+  "commandPaletteAria": "命令面板",
+  "palettePlaceholder": "搜索服务器、命令或页面…",
+  "paletteFoot": "Esc 关闭 · Enter 选择",
+  "hintScreen": "页面",
+  "nav": {
+    "hosts": "服务器",
+    "terminal": "终端",
+    "snippets": "代码片段",
+    "remote": "SFTP / FTP",
+    "vault": "保险库",
+    "keys": "密钥",
+    "settings": "设置"
+  },
+  "newHost": "新主机…",
+  "vaultActions": "保险库操作",
+  "vaultSetup": "设置保险库…",
+  "connect": "连接：{{name}}"
+}

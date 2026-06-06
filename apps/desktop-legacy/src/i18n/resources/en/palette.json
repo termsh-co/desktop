@@ -1,0 +1,22 @@
+{
+  "searchPlaceholder": "Search…",
+  "searchAria": "Search",
+  "empty": "No results",
+  "commandPaletteAria": "Command palette",
+  "palettePlaceholder": "Search servers, commands, or screens…",
+  "paletteFoot": "Esc close · Enter select",
+  "hintScreen": "Screen",
+  "nav": {
+    "hosts": "Servers",
+    "terminal": "Terminal",
+    "snippets": "Snippets",
+    "remote": "SFTP / FTP",
+    "vault": "Vault",
+    "keys": "Keys",
+    "settings": "Settings"
+  },
+  "newHost": "New host…",
+  "vaultActions": "Vault actions",
+  "vaultSetup": "Set up vault…",
+  "connect": "Connect: {{name}}"
+}

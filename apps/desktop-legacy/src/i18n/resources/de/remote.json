@@ -1,0 +1,58 @@
+{
+  "view": {
+    "searchPlaceholder": "SFTP-Hosts suchen…",
+    "addServer": "Server hinzufügen",
+    "empty": "Noch keine Server. Füge einen hinzu, um Dateien per SFTP zu durchsuchen.",
+    "noResults": "Keine Ergebnisse.",
+    "connected": "Verbunden",
+    "editHostAria": "{{name}} — bearbeiten"
+  },
+  "explorer": {
+    "idleHint": "Wähle einen Server auf dem SFTP-/FTP-Bildschirm.",
+    "local": "Lokal",
+    "remote": "Remote",
+    "upload": "↑ Hochladen",
+    "download": "↓ Herunterladen",
+    "pickFile": "Datei wählen…",
+    "uploadSelectedTitle": "Ausgewählte Datei hochladen",
+    "downloadSelectedTitle": "Ausgewählte Datei herunterladen",
+    "retry": "Erneut versuchen",
+    "localList": "Lokale Liste",
+    "filesCount": "{{count}} Dateien",
+    "transferRunning": "…",
+    "transferDone": "fertig",
+    "transferError": "Fehler",
+    "errors": {
+      "foldersCannotUpload": "Ordner können nicht hochgeladen werden — Datei wählen",
+      "noServerSession": "Keine Server-Sitzung",
+      "foldersCannotDownload": "Ordner können nicht heruntergeladen werden — Datei wählen",
+      "symlinkCannotDownload": "Symlinks können nicht heruntergeladen werden — Doppelklick zum Öffnen",
+      "localFolderNotLoaded": "Lokaler Ordner noch nicht geladen"
+    }
+  },
+  "grid": {
+    "colName": "Name",
+    "colSize": "Größe",
+    "colType": "Typ",
+    "colModified": "Geändert",
+    "emptyDir": "Leeres Verzeichnis",
+    "loading": "Wird geladen…",
+    "dropTitle": "Dateien hier ablegen",
+    "dropUpload": "Auf Server hochladen",
+    "dropDownload": "In diesen Ordner laden",
+    "parentDir": "Übergeordnetes Verzeichnis",
+    "open": "Öffnen",
+    "goParent": "Nach oben",
+    "uploadToServer": "Auf Server hochladen",
+    "download": "Herunterladen",
+    "copyPath": "Pfad kopieren",
+    "refresh": "Aktualisieren",
+    "pickUpload": "Datei hochladen…",
+    "fileTypes": {
+      "folder": "Ordner",
+      "document": "Dokument",
+      "link": "Link",
+      "other": "Sonstiges"
+    }
+  }
+}

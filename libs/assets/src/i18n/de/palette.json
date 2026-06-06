@@ -1,0 +1,22 @@
+{
+  "searchPlaceholder": "Suchen…",
+  "searchAria": "Suchen",
+  "empty": "Keine Ergebnisse",
+  "commandPaletteAria": "Befehlspalette",
+  "palettePlaceholder": "Server, Befehle oder Bildschirme suchen…",
+  "paletteFoot": "Esc schließen · Enter auswählen",
+  "hintScreen": "Bildschirm",
+  "nav": {
+    "hosts": "Server",
+    "terminal": "Terminal",
+    "snippets": "Snippets",
+    "remote": "SFTP / FTP",
+    "vault": "Tresor",
+    "keys": "Schlüssel",
+    "settings": "Einstellungen"
+  },
+  "newHost": "Neuer Host…",
+  "vaultActions": "Tresor-Aktionen",
+  "vaultSetup": "Tresor einrichten…",
+  "connect": "Verbinden: {{name}}"
+}

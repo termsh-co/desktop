@@ -1,0 +1,58 @@
+{
+  "view": {
+    "searchPlaceholder": "SFTP host ara…",
+    "addServer": "Sunucu ekle",
+    "empty": "Henüz sunucu yok. SFTP ile dosya gezmek için bir tane ekleyin.",
+    "noResults": "Sonuç yok.",
+    "connected": "Bağlı",
+    "editHostAria": "{{name}} — düzenle"
+  },
+  "explorer": {
+    "idleHint": "SFTP / FTP ekranından bir sunucu seçin.",
+    "local": "Yerel",
+    "remote": "Uzak",
+    "upload": "↑ Yükle",
+    "download": "↓ İndir",
+    "pickFile": "Dosya seç…",
+    "uploadSelectedTitle": "Seçili dosyayı yükle",
+    "downloadSelectedTitle": "Seçili dosyayı indir",
+    "retry": "Tekrar dene",
+    "localList": "Yerel liste",
+    "filesCount": "{{count}} dosya",
+    "transferRunning": "…",
+    "transferDone": "tamam",
+    "transferError": "hata",
+    "errors": {
+      "foldersCannotUpload": "Klasörler yüklenemez — dosya seçin",
+      "noServerSession": "Sunucu oturumu yok",
+      "foldersCannotDownload": "Klasörler indirilemez — dosya seçin",
+      "symlinkCannotDownload": "Sembolik bağlantılar indirilemez — çift tıklayarak açın",
+      "localFolderNotLoaded": "Yerel klasör henüz yüklenmedi"
+    }
+  },
+  "grid": {
+    "colName": "Ad",
+    "colSize": "Boyut",
+    "colType": "Tür",
+    "colModified": "Değişiklik",
+    "emptyDir": "Boş dizin",
+    "loading": "Yükleniyor…",
+    "dropTitle": "Dosyaları buraya bırakın",
+    "dropUpload": "Sunucuya yükle",
+    "dropDownload": "Bu klasöre indir",
+    "parentDir": "Üst dizin",
+    "open": "Aç",
+    "goParent": "Üst dizine git",
+    "uploadToServer": "Sunucuya yükle",
+    "download": "İndir",
+    "copyPath": "Yolu kopyala",
+    "refresh": "Yenile",
+    "pickUpload": "Dosya yükle…",
+    "fileTypes": {
+      "folder": "Klasör",
+      "document": "Belge",
+      "link": "Bağlantı",
+      "other": "Diğer"
+    }
+  }
+}

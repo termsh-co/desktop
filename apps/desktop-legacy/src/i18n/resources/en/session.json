@@ -1,0 +1,21 @@
+{
+  "tabBarAria": "Session tabs",
+  "openSessionsAria": "Open sessions",
+  "terminalTitle": "Terminal / sessions",
+  "terminal": "Terminal",
+  "closeSession": "Close session",
+  "splitOff": "Split view",
+  "splitVertical": "Vertical split (click: horizontal)",
+  "splitHorizontal": "Horizontal split (click: close)",
+  "splitAria": "Split view",
+  "newSession": {
+    "title": "New session",
+    "localTerminal": "Local terminal",
+    "localHint": "Shell on this device",
+    "host": "Host",
+    "hostHint": "Connect via SSH",
+    "back": "Back",
+    "hostsAria": "Hosts",
+    "noHosts": "No hosts yet — add one"
+  }
+}

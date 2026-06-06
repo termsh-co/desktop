@@ -1,0 +1,87 @@
+{
+  "title": "Snippets",
+  "subtitle": "Häufige Befehle hier speichern. Mit einem Klick an das aktive Terminal senden.",
+  "library": "Bibliothek",
+  "addSnippet": "+ Snippet hinzufügen",
+  "searchPlaceholder": "Snippets suchen…",
+  "loading": "Wird geladen…",
+  "empty": "Noch keine Snippets.",
+  "noTags": "Keine Tags",
+  "send": "Senden",
+  "sendTitle": "An Terminal senden",
+  "sendDisabledTitle": "Zuerst eine Terminal-Sitzung öffnen",
+  "deleteConfirm": "Dieses Snippet löschen?",
+  "drawer": {
+    "titleNew": "Neues Snippet",
+    "titleEdit": "Snippet bearbeiten",
+    "subtitle": "Häufige Befehle griffbereit halten.",
+    "titleLabel": "Titel",
+    "titlePlaceholder": "Deploy to prod",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "ops, ssh, db",
+    "bodyLabel": "Snippet",
+    "bodyPlaceholder": "echo \"hello\"\n",
+    "saving": "Wird gespeichert…",
+    "errors": {
+      "titleRequired": "Titel ist erforderlich.",
+      "bodyRequired": "Snippet-Inhalt ist erforderlich."
+    }
+  },
+  "libraryDrawer": {
+    "title": "Snippet-Bibliothek",
+    "subtitle": "Fertige Befehle zur Sammlung hinzufügen.",
+    "add": "+ Hinzufügen"
+  },
+  "templates": {
+    "systemInfo": {
+      "title": "Systeminfo",
+      "body": "uname -a\necho '---'\ndf -h\necho '---'\nfree -h 2>/dev/null || vm_stat",
+      "tags": "system"
+    },
+    "diskUsage": {
+      "title": "Speichernutzung (Top 10)",
+      "body": "du -sh /* 2>/dev/null | sort -rh | head -10",
+      "tags": "system, disk"
+    },
+    "listeningPorts": {
+      "title": "Lauschende Ports",
+      "body": "ss -tlnp 2>/dev/null || netstat -an | grep LISTEN",
+      "tags": "network, system"
+    },
+    "dockerContainers": {
+      "title": "Docker-Container",
+      "body": "docker ps -a --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'",
+      "tags": "docker"
+    },
+    "dockerCleanup": {
+      "title": "Docker-Bereinigung",
+      "body": "docker system prune -af --volumes",
+      "tags": "docker"
+    },
+    "gitLog": {
+      "title": "Git-Log (kompakt)",
+      "body": "git log --oneline --graph --decorate --all -20",
+      "tags": "git"
+    },
+    "topProcesses": {
+      "title": "Top-Prozesse (CPU)",
+      "body": "ps aux --sort=-%cpu | head -10",
+      "tags": "system"
+    },
+    "nginxReload": {
+      "title": "Nginx neu laden",
+      "body": "sudo nginx -t && sudo systemctl reload nginx",
+      "tags": "nginx, ops"
+    },
+    "sslCertCheck": {
+      "title": "SSL-Zertifikat prüfen",
+      "body": "echo | openssl s_client -servername example.com -connect example.com:443 2>/dev/null | openssl x509 -noout -dates",
+      "tags": "ssl, ops"
+    },
+    "journalErrors": {
+      "title": "Journal-Fehler (letzte Stunde)",
+      "body": "journalctl --since '1 hour ago' -p err --no-pager",
+      "tags": "system, logs"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@termsh/shared",
+  "deprecated": "Use @termsh/common (libs/common)",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@termsh/common": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vitest": "^3.0.5"
+  },
+  "license": "AGPL-3.0"
+}

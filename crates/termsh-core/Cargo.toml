@@ -1,0 +1,30 @@
+[package]
+name = "termsh-core"
+version.workspace = true
+edition.workspace = true
+description = "Shared termsh core — vault, models, and platform-agnostic logic"
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+aes-gcm = "0.10"
+argon2 = "0.5"
+rand = "0.8"
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
+zeroize = { version = "1", features = ["zeroize_derive"] }
+
+[features]
+default = []
+uniffi = ["dep:uniffi"]
+
+[[bin]]
+name = "uniffi-bindgen"
+path = "src/bin/uniffi-bindgen.rs"
+required-features = ["uniffi"]
+
+[dependencies.uniffi]
+version = "0.28"
+optional = true

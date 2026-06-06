@@ -1,0 +1,79 @@
+{
+  "title": "安全保险库",
+  "subtitle": "SSH 密码和私钥在您的设备上加密存储。",
+  "status": {
+    "notSetup": "保险库尚未设置",
+    "unlocked": "保险库已解锁 — 密钥可用",
+    "locked": "保险库已锁定"
+  },
+  "keychain": {
+    "enabled": "钥匙串：此设备上已启用自动解锁",
+    "disabled": "钥匙串：未保存。解锁时勾选记住选项。"
+  },
+  "biometric": {
+    "touchId": "Touch ID",
+    "faceId": "Face ID",
+    "windowsHello": "Windows Hello",
+    "generic": "生物识别",
+    "enabled": "{{method}}：此设备已启用快速解锁"
+  },
+  "actions": {
+    "setup": "设置保险库",
+    "lock": "锁定",
+    "unlock": "解锁",
+    "forgetKeychain": "忘记钥匙串",
+    "forgetDeviceUnlock": "移除快速解锁"
+  },
+  "protectsTitle": "保险库保护的内容",
+  "protects": {
+    "passwords": "SSH 密码 (AES-256-GCM)",
+    "keys": "私钥 (ED25519 / RSA)",
+    "snippets": "代码片段内容",
+    "kdf": "密钥派生：Argon2id"
+  },
+  "unlock": {
+    "title": "保险库",
+    "subtitle": "输入主密码以解锁。",
+    "masterPassword": "主密码",
+    "placeholder": "输入主密码",
+    "showPassword": "显示密码",
+    "hidePassword": "隐藏密码",
+    "rememberKeychain": "在此 Mac 上记住主密码（钥匙串）",
+    "useBiometric": "在此设备上使用 {{method}} 解锁",
+    "biometricButton": "使用 {{method}} 解锁",
+    "unlocking": "解锁中…",
+    "unlockButton": "解锁",
+    "footnote": "无需保险库也可使用终端。"
+  },
+  "setup": {
+    "title": "加密保险库",
+    "lead": "SSH 密码和私钥在您的设备上加密。可选 — 无需保险库也可使用本地终端和主机书签。",
+    "masterPassword": "主密码",
+    "confirmPassword": "确认密码",
+    "rememberKeychain": "在此 Mac 上记住主密码（钥匙串）",
+    "useBiometric": "在此设备上使用 {{method}} 解锁",
+    "passwordMismatch": "密码不匹配",
+    "creating": "创建中…",
+    "createButton": "创建保险库",
+    "skip": "暂不"
+  },
+  "gate": {
+    "initFailed": "无法启动",
+    "devHint": "在项目根目录终端运行：<code>pnpm dev</code>",
+    "loading": "加载中…"
+  },
+  "onboarding": {
+    "title": "您想如何使用 termsh？",
+    "subtitle": "termsh 加密保存密码和密钥——从不明文存储。",
+    "chooseSubtitle": "选择入门方式，之后可在设置中更改。",
+    "localTitle": "本地保险库",
+    "localLead": "仅在本设备加密密码和密钥，一个主密码解锁全部。",
+    "cloudTitle": "云同步",
+    "cloudLead": "在设备间备份主机、片段和密钥，服务器只能看到无法解密的密文。",
+    "cloudRequiresVault": "需先设置保险库——主密码不会离开本设备。",
+    "cloudNote": "同步账户密码仅用于 API 登录，无法解密数据。",
+    "setupButton": "设置保险库",
+    "cloudSetupButton": "设置保险库 + 云同步",
+    "skipButton": "暂不设置，继续使用"
+  }
+}

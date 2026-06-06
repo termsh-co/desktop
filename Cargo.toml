@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/termsh-core",
+    "crates/termsh-core/napi",
+    "apps/desktop-legacy/src-tauri",
+]
+
+[workspace.package]
+version = "0.5.0"
+edition = "2021"
+authors = ["termsh"]
+license = "AGPL-3.0"

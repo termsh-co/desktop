@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@termsh/common": ["libs/common/src/index.ts"],
+      "@termsh/components": ["libs/components/src/index.ts"],
+      "@termsh/assets": ["libs/assets/src/index.ts"],
+      "@termsh/vault": ["libs/vault/src/index.ts"],
+      "@termsh/ssh": ["libs/ssh/src/index.ts"],
+      "@termsh/terminal": ["libs/terminal/src/index.ts"],
+      "@termsh/state": ["libs/state/src/index.ts"],
+      "@termsh/platform": ["libs/platform/src/index.ts"],
+      "@termsh/auth": ["libs/auth/src/index.ts"],
+      "@termsh/angular": ["libs/angular/src/index.ts"],
+      "@termsh/core-napi": ["packages/core-napi/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

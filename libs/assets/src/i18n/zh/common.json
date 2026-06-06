@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "servers": "服务器",
+    "snippets": "代码片段",
+    "vault": "保险库",
+    "keys": "密钥",
+    "settings": "设置",
+    "navigation": "导航",
+    "pages": "页面"
+  },
+  "actions": {
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "retry": "重试",
+    "copy": "复制",
+    "done": "完成"
+  },
+  "status": {
+    "ssh": "SSH · {{user}}@{{host}}",
+    "remote": "{{protocol}} · {{user}}@{{host}}",
+    "local": "PTY · 本地",
+    "disconnected": "未连接",
+    "sessions": "{{count}} 个会话",
+    "vaultNone": "无保险库",
+    "vaultUnlocked": "保险库已解锁",
+    "vaultLocked": "保险库已锁定",
+    "hosts": "{{count}} 个主机",
+    "syncConnected": "sync · {{email}}",
+    "syncNoConnection": "sync · 无连接",
+    "syncOff": "sync 关闭"
+  },
+  "runtime": {
+    "notTauri": "桌面应用未运行。请在项目根目录使用 `pnpm dev`（不要仅用 Vite/浏览器）。"
+  }
+}

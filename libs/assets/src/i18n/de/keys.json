@@ -1,0 +1,39 @@
+{
+  "title": "Schlüssel",
+  "subtitle": "SSH-Privatschlüssel verwalten. Verschlüsselt im Tresor gespeichert.",
+  "addKey": "+ Schlüssel hinzufügen",
+  "searchPlaceholder": "Schlüssel suchen…",
+  "vaultLocked": "Tresor gesperrt. Zum Hinzufügen oder Bearbeiten entsperren.",
+  "empty": "Noch keine Schlüssel.",
+  "deleteConfirm": "Diesen Schlüssel löschen?",
+  "drawer": {
+    "titleAdd": "Schlüssel hinzufügen",
+    "titleEdit": "Schlüssel bearbeiten",
+    "titleCreated": "Schlüssel erstellt",
+    "subtitleStored": "Verschlüsselt im Tresor gespeichert.",
+    "subtitleCreated": "Öffentlichen Schlüssel in authorized_keys des Servers kopieren.",
+    "modeAria": "Schlüssel-Hinzufügen-Modus",
+    "generate": "Generieren",
+    "import": "Importieren",
+    "nameLabel": "Name",
+    "namePlaceholder": "Prod SSH key",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "prod, ops",
+    "algorithmLabel": "Algorithmus",
+    "algorithmEd25519": "Ed25519 (empfohlen)",
+    "algorithmRsa": "RSA 4096",
+    "privateKeyLabel": "Privater Schlüssel (PEM)",
+    "privateKeyPlaceholderNew": "-----BEGIN OPENSSH PRIVATE KEY-----\n...\n-----END OPENSSH PRIVATE KEY-----",
+    "privateKeyPlaceholderRotate": "Optional — neuen Schlüssel zum Rotieren einfügen",
+    "publicKeyLabel": "Öffentlicher Schlüssel",
+    "saving": "Wird gespeichert…",
+    "generating": "Wird generiert…",
+    "done": "Fertig",
+    "errors": {
+      "nameRequired": "Name ist erforderlich.",
+      "privateKeyRequired": "Privater Schlüssel ist erforderlich.",
+      "generateUnavailable": "Schlüsselgenerierung nicht verfügbar.",
+      "copyFailed": "Kopieren in die Zwischenablage fehlgeschlagen."
+    }
+  }
+}

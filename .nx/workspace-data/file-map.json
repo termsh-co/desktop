@@ -1,0 +1,2061 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {
+    "@termsh/common": [
+      "libs/common/src/index.ts"
+    ],
+    "@termsh/components": [
+      "libs/components/src/index.ts"
+    ],
+    "@termsh/assets": [
+      "libs/assets/src/index.ts"
+    ],
+    "@termsh/vault": [
+      "libs/vault/src/index.ts"
+    ],
+    "@termsh/ssh": [
+      "libs/ssh/src/index.ts"
+    ],
+    "@termsh/terminal": [
+      "libs/terminal/src/index.ts"
+    ],
+    "@termsh/state": [
+      "libs/state/src/index.ts"
+    ],
+    "@termsh/platform": [
+      "libs/platform/src/index.ts"
+    ],
+    "@termsh/auth": [
+      "libs/auth/src/index.ts"
+    ],
+    "@termsh/angular": [
+      "libs/angular/src/index.ts"
+    ],
+    "@termsh/core-napi": [
+      "packages/core-napi/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "crates/termsh-core/src/lib.rs",
+        "hash": "1606500058258792599"
+      },
+      {
+        "file": ".angular/cache/19.2.27/desktop/angular-compiler.db-lock",
+        "hash": "14655186916598838812"
+      },
+      {
+        "file": ".env.example",
+        "hash": "7471600289434005674"
+      },
+      {
+        "file": "crates/termsh-core/src/error.rs",
+        "hash": "15107539884231951420"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "8851805999207166556"
+      },
+      {
+        "file": "crates/termsh-core/napi/build.rs",
+        "hash": "15722212991488112851"
+      },
+      {
+        "file": ".github/workflows/release-desktop.yml",
+        "hash": "10996455894578933074"
+      },
+      {
+        "file": "crates/termsh-core/src/vault/kdf.rs",
+        "hash": "9447987948395289897"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9273218852461626600"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "13397775595678959649"
+      },
+      {
+        "file": "crates/termsh-core/src/vault/runtime.rs",
+        "hash": "9616584223463696299"
+      },
+      {
+        "file": ".angular/cache/19.2.27/desktop/.tsbuildinfo",
+        "hash": "16834430399359247701"
+      },
+      {
+        "file": "Cargo.toml",
+        "hash": "1173080744781784832"
+      },
+      {
+        "file": "crates/termsh-core/Cargo.toml",
+        "hash": "16824336452658879613"
+      },
+      {
+        "file": "packages/native/termsh-core-napi.node",
+        "hash": "11147600128499411134"
+      },
+      {
+        "file": ".github/workflows/web-deploy.yml",
+        "hash": "14556110634400249848"
+      },
+      {
+        "file": "crates/termsh-core/napi/Cargo.toml",
+        "hash": "12587630503095079574"
+      },
+      {
+        "file": "Cargo.lock",
+        "hash": "11500998153148681716"
+      },
+      {
+        "file": "crates/termsh-core/napi/src/lib.rs",
+        "hash": "16541977283377676091"
+      },
+      {
+        "file": ".githooks/check-author.sh",
+        "hash": "9446004350364964504"
+      },
+      {
+        "file": "crates/termsh-core/src/vault/crypto.rs",
+        "hash": "11086582893980407881"
+      },
+      {
+        "file": "angular.json",
+        "hash": "18404908693387467123"
+      },
+      {
+        "file": ".angular/cache/19.2.27/desktop/angular-compiler.db",
+        "hash": "10407090314812857669"
+      },
+      {
+        "file": "crates/termsh-core/src/models.rs",
+        "hash": "4231092692423474161"
+      },
+      {
+        "file": ".angular/cache/19.2.27/web/angular-compiler.db-lock",
+        "hash": "3729164138594814568"
+      },
+      {
+        "file": "STACK.md",
+        "hash": "3400282921338864614"
+      },
+      {
+        "file": "crates/termsh-core/src/vault/mod.rs",
+        "hash": "14569559569843106215"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "10648302415535712722"
+      },
+      {
+        "file": "package.json",
+        "hash": "62795593272668808"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "3772641371704478549"
+      },
+      {
+        "file": "README.md",
+        "hash": "7308038302971605356"
+      },
+      {
+        "file": ".angular/cache/19.2.27/web/.tsbuildinfo",
+        "hash": "5110117957477592214"
+      },
+      {
+        "file": "SECURITY.md",
+        "hash": "11759077901887996260"
+      },
+      {
+        "file": "crates/termsh-core/src/bin/uniffi-bindgen.rs",
+        "hash": "7329966583878025017"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6754473320008876588"
+      },
+      {
+        "file": "SECURITY_MODEL.md",
+        "hash": "8481057456021731283"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16072561196592082342"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13503723431629894842"
+      },
+      {
+        "file": ".angular/cache/19.2.27/web/angular-compiler.db",
+        "hash": "9116880560168721635"
+      },
+      {
+        "file": ".githooks/prepare-commit-msg",
+        "hash": "7559188233567371716"
+      },
+      {
+        "file": "crates/termsh-core/ffi/termsh_core.udl",
+        "hash": "4994665257764033725"
+      },
+      {
+        "file": "crates/termsh-core/src/db/schema.rs",
+        "hash": "12902029613778751109"
+      },
+      {
+        "file": ".githooks/pre-commit",
+        "hash": "12189145217037613031"
+      },
+      {
+        "file": "crates/termsh-core/src/ffi/mod.rs",
+        "hash": "793377536221832014"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "5479195949564879897"
+      },
+      {
+        "file": "crates/termsh-core/src/db/mod.rs",
+        "hash": "2262472049570916802"
+      },
+      {
+        "file": ".github/workflows/release.yml",
+        "hash": "17298723639945351913"
+      }
+    ],
+    "projectFileMap": {
+      "vault": [
+        {
+          "file": "libs/vault/project.json",
+          "hash": "15970057588960423050"
+        },
+        {
+          "file": "libs/vault/src/index.ts",
+          "hash": "13630347520003085828"
+        }
+      ],
+      "terminal": [
+        {
+          "file": "libs/terminal/project.json",
+          "hash": "14209460408015600360"
+        },
+        {
+          "file": "libs/terminal/src/index.ts",
+          "hash": "10616875123330155994"
+        }
+      ],
+      "@termsh/desktop-legacy": [
+        {
+          "file": "apps/desktop-legacy/.gitignore",
+          "hash": "14111162134194665885"
+        },
+        {
+          "file": "apps/desktop-legacy/README.md",
+          "hash": "13925171723204050060"
+        },
+        {
+          "file": "apps/desktop-legacy/index.html",
+          "hash": "7269910638079581152"
+        },
+        {
+          "file": "apps/desktop-legacy/package.json",
+          "hash": "3166279340677582604",
+          "deps": [
+            "npm:@tauri-apps/cli",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:happy-dom",
+            "npm:nanoid",
+            "npm:typescript@5.6.3",
+            "npm:vite@6.4.3",
+            "npm:vitest",
+            "@termsh/shared",
+            "npm:@tauri-apps/api",
+            "npm:@tauri-apps/plugin-dialog",
+            "npm:@tauri-apps/plugin-notification",
+            "npm:@tauri-apps/plugin-opener",
+            "npm:@tauri-apps/plugin-process",
+            "npm:@tauri-apps/plugin-updater",
+            "npm:@xterm/addon-fit",
+            "npm:@xterm/xterm",
+            "npm:i18next",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-i18next",
+            "npm:simple-icons",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/desktop-legacy/public/apple-touch-icon.png",
+          "hash": "5239406965819586348"
+        },
+        {
+          "file": "apps/desktop-legacy/public/favicon.png",
+          "hash": "5919097184993876373"
+        },
+        {
+          "file": "apps/desktop-legacy/scripts/build-macos-icns.sh",
+          "hash": "3794585001951732575"
+        },
+        {
+          "file": "apps/desktop-legacy/scripts/build-tray-icons.sh",
+          "hash": "15511776667517330785"
+        },
+        {
+          "file": "apps/desktop-legacy/scripts/build-tray-icons.swift",
+          "hash": "12739836535762896054"
+        },
+        {
+          "file": "apps/desktop-legacy/scripts/check-i18n-keys.mjs",
+          "hash": "1699148660740347592"
+        },
+        {
+          "file": "apps/desktop-legacy/scripts/macos-icon-pad.swift",
+          "hash": "12901610462117759635"
+        },
+        {
+          "file": "apps/desktop-legacy/scripts/sync-version.mjs",
+          "hash": "7658970137160878932"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/.gitignore",
+          "hash": "4054862768829002736"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/Cargo.lock",
+          "hash": "7992834958373556713"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/Cargo.toml",
+          "hash": "17639099523207679460"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/Entitlements.plist",
+          "hash": "11642172366254132582"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/Info.plist",
+          "hash": "12940704180497959768"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/build.rs",
+          "hash": "12191257350081487200"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/capabilities/default.json",
+          "hash": "17156168373551414148"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/128x128.png",
+          "hash": "9691711083497878024"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/128x128@2x.png",
+          "hash": "3114574717990265905"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/32x32.png",
+          "hash": "6834055675052900456"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/64x64.png",
+          "hash": "14167745535715781460"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square107x107Logo.png",
+          "hash": "11864665108499176395"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square142x142Logo.png",
+          "hash": "8556345062651534802"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square150x150Logo.png",
+          "hash": "11026089327229821201"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square284x284Logo.png",
+          "hash": "7064906176567917199"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square30x30Logo.png",
+          "hash": "11275983485655031396"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square310x310Logo.png",
+          "hash": "14879211047669834713"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square44x44Logo.png",
+          "hash": "9811293215631668574"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square71x71Logo.png",
+          "hash": "9793896447511702560"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/Square89x89Logo.png",
+          "hash": "3697080309574855876"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/StoreLogo.png",
+          "hash": "2184961885313590268"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml",
+          "hash": "13780831376529722936"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png",
+          "hash": "7734088715729723292"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png",
+          "hash": "10428404942054830621"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png",
+          "hash": "10519499617673046407"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png",
+          "hash": "1037509117472677406"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png",
+          "hash": "13474534160445774947"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png",
+          "hash": "2409168877150294175"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png",
+          "hash": "5944505467265635755"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png",
+          "hash": "17673792848192560707"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png",
+          "hash": "7405163565660396501"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png",
+          "hash": "15601784911653876193"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png",
+          "hash": "7234841695109071321"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png",
+          "hash": "12297899104402044893"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png",
+          "hash": "4140667589497207479"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "hash": "6115860679085566170"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
+          "hash": "8260722487292081108"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/android/values/ic_launcher_background.xml",
+          "hash": "5366912841381332925"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/icon.icns",
+          "hash": "18329954255578624409"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/icon.ico",
+          "hash": "17844870048318906868"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/icon.png",
+          "hash": "11538653882772915142"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-20x20@1x.png",
+          "hash": "7828227292195565535"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
+          "hash": "3882574179037323544"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-20x20@2x.png",
+          "hash": "3882574179037323544"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-20x20@3x.png",
+          "hash": "12039305980792408533"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-29x29@1x.png",
+          "hash": "811776956836017118"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
+          "hash": "13121706519994906672"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-29x29@2x.png",
+          "hash": "13121706519994906672"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-29x29@3x.png",
+          "hash": "17464468863539578784"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-40x40@1x.png",
+          "hash": "3882574179037323544"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
+          "hash": "18342487999781689330"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-40x40@2x.png",
+          "hash": "18342487999781689330"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-40x40@3x.png",
+          "hash": "12945151441062140758"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-512@2x.png",
+          "hash": "8122205865466858842"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-60x60@2x.png",
+          "hash": "12945151441062140758"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-60x60@3x.png",
+          "hash": "6462907123372799106"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-76x76@1x.png",
+          "hash": "7048258966125168176"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-76x76@2x.png",
+          "hash": "3273815177157249607"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
+          "hash": "16430218419636158521"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/tray-icon.png",
+          "hash": "13257444834434752978"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/icons/tray-icon@2x.png",
+          "hash": "2556838619801001706"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/app.rs",
+          "hash": "17675311592308068636"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/hosts.rs",
+          "hash": "6077774780922161794"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/keys.rs",
+          "hash": "14194963979238711918"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/keys_generate.rs",
+          "hash": "2152039228844629362"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/mod.rs",
+          "hash": "7334357627086858382"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/remote_fs.rs",
+          "hash": "7132034237827929527"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/snippets.rs",
+          "hash": "1382778583666631220"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/sync.rs",
+          "hash": "1758378781954969521"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/vault.rs",
+          "hash": "3133365718227484938"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/commands/window.rs",
+          "hash": "10385694138498572038"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/db/mod.rs",
+          "hash": "16607698534008766878"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/db/schema.rs",
+          "hash": "17280041709379731020"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/error.rs",
+          "hash": "6696111491871141516"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/lib.rs",
+          "hash": "6492758152244402300"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/macos_titlebar.rs",
+          "hash": "953603430594160113"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/main.rs",
+          "hash": "1207913284682736384"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/remote_connect.rs",
+          "hash": "9823655328448739175"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/remote_pool.rs",
+          "hash": "165959706309007991"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/emit.rs",
+          "hash": "18199333617096681325"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/local.rs",
+          "hash": "5843047728900040846"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/manager.rs",
+          "hash": "3110544898231392212"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/mod.rs",
+          "hash": "3820761963158075538"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/os_detect.rs",
+          "hash": "6615487570694199549"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/ssh.rs",
+          "hash": "4654911771804451786"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/session/types.rs",
+          "hash": "10909137077842927122"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/ssh_auth.rs",
+          "hash": "5493001108974902915"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/sync/client.rs",
+          "hash": "11879585469766878709"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/sync/crypto.rs",
+          "hash": "10543286398121096191"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/sync/mod.rs",
+          "hash": "15977686575532678723"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/tray.rs",
+          "hash": "12035252881805924623"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/tray_i18n.rs",
+          "hash": "8002990643998789292"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/vault/access.rs",
+          "hash": "4491187229766965635"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/vault/crypto.rs",
+          "hash": "5699989432216398936"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/vault/keychain.rs",
+          "hash": "10572836482352240430"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/vault/keychain_biometric.rs",
+          "hash": "4324714101596300619"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/vault/mod.rs",
+          "hash": "5261279972755950354"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/src/vibrancy.rs",
+          "hash": "2750688742821323662"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/tauri.conf.json",
+          "hash": "14052406598126920756"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/tests/pty_echo.rs",
+          "hash": "1923550124825540681"
+        },
+        {
+          "file": "apps/desktop-legacy/src-tauri/updater.key.pub",
+          "hash": "18376105072238643167"
+        },
+        {
+          "file": "apps/desktop-legacy/src/App.tsx",
+          "hash": "6239056432459418979"
+        },
+        {
+          "file": "apps/desktop-legacy/src/assets/brand/app-icon.png",
+          "hash": "187547864554630510"
+        },
+        {
+          "file": "apps/desktop-legacy/src/assets/brand/icon-mono.png",
+          "hash": "187547864554630510"
+        },
+        {
+          "file": "apps/desktop-legacy/src/assets/brand/wordmark-mono.png",
+          "hash": "10502452790623859087"
+        },
+        {
+          "file": "apps/desktop-legacy/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/brand/TermshLogo.tsx",
+          "hash": "16053267674493475433"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/hosts/HostDrawer.tsx",
+          "hash": "6651900359379617758"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/hosts/HostOsIcon.tsx",
+          "hash": "17426851088587366705"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/hosts/HostTile.tsx",
+          "hash": "4324249989499296519"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/hosts/HostsPanel.tsx",
+          "hash": "14638432329205764471"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/i18n/I18nProvider.tsx",
+          "hash": "13512550983301443189"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/keys/KeyDrawer.tsx",
+          "hash": "4503596611302362150"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/AppHeader.tsx",
+          "hash": "11884691186386492329"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/AppShell.tsx",
+          "hash": "17394855411393961311"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/AppSidebarNav.tsx",
+          "hash": "1643431387309177421"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/BottomNav.tsx",
+          "hash": "15510809074318574041"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/CommandPalette.tsx",
+          "hash": "11445877565911427509"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/ContentToolbar.tsx",
+          "hash": "16416398076132602481"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/HeaderSearch.tsx",
+          "hash": "3162427141222464656"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/MainContent.tsx",
+          "hash": "1696835245524961000"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/NewSessionMenu.tsx",
+          "hash": "4386266964509208255"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/SessionTabBar.tsx",
+          "hash": "1768940368626828474"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/Sidebar.tsx",
+          "hash": "6726408564517118013"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/StatusBar.tsx",
+          "hash": "1059903640953097965"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/layout/UpdateNotificationButton.tsx",
+          "hash": "2369201079921257464"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/remote/ExplorerContextMenu.tsx",
+          "hash": "8832296955269840656"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/remote/FileEntryIcon.tsx",
+          "hash": "18087470284409459079"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/remote/FileExplorerGrid.tsx",
+          "hash": "15545591178329574586"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/remote/RemoteExplorerPane.tsx",
+          "hash": "17406874513364014745"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/remote/RemoteSiteRow.tsx",
+          "hash": "3044917291475097041"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/settings/ThemeMenu.tsx",
+          "hash": "14409043549035974592"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/snippets/SnippetDrawer.tsx",
+          "hash": "17998550796897526038"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/snippets/SnippetLibrary.tsx",
+          "hash": "10477149807369069201"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/terminal/SplitPaneBar.tsx",
+          "hash": "7259511789476862813"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/terminal/SshConnectScreen.tsx",
+          "hash": "17577817808892600731"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/terminal/TerminalPane.tsx",
+          "hash": "7809601823220986567"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/terminal/XtermTerminal.tsx",
+          "hash": "18327659326620022969"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/ui/DrawerPortal.tsx",
+          "hash": "15068573271963054312"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/ui/Icon.tsx",
+          "hash": "7013947455654640213"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/ui/SecretInput.tsx",
+          "hash": "8491966043411561142"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/vault/UnlockView.tsx",
+          "hash": "2099163139175168184"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/vault/VaultGate.tsx",
+          "hash": "16178455629283919366"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/vault/VaultOnboardingView.tsx",
+          "hash": "10118045863649436168"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/vault/VaultSetupModal.tsx",
+          "hash": "7857669416311039512"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/KeysView.tsx",
+          "hash": "16943798316261822047"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/RemoteView.tsx",
+          "hash": "8158973953925949887"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/ServerView.tsx",
+          "hash": "5103621698733737143"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/SettingsView.tsx",
+          "hash": "3990393095968201712"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/SnippetsView.tsx",
+          "hash": "13279727658999219933"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/TerminalView.tsx",
+          "hash": "12349220978295041901"
+        },
+        {
+          "file": "apps/desktop-legacy/src/components/views/VaultView.tsx",
+          "hash": "3789796615943337856"
+        },
+        {
+          "file": "apps/desktop-legacy/src/hooks/useAppShortcuts.ts",
+          "hash": "12286782600937307958"
+        },
+        {
+          "file": "apps/desktop-legacy/src/hooks/useFocusTrap.ts",
+          "hash": "4686630487038507336"
+        },
+        {
+          "file": "apps/desktop-legacy/src/hooks/usePaletteActions.ts",
+          "hash": "2691221753195295207"
+        },
+        {
+          "file": "apps/desktop-legacy/src/hooks/useSshIdleMonitor.ts",
+          "hash": "5483562660080862301"
+        },
+        {
+          "file": "apps/desktop-legacy/src/hooks/useTerminalDataRouter.ts",
+          "hash": "15719674683723789873"
+        },
+        {
+          "file": "apps/desktop-legacy/src/hooks/useUpdaterAutoCheck.ts",
+          "hash": "14452170632258022989"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/index.ts",
+          "hash": "15885614772565749452"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/locale-switch.test.ts",
+          "hash": "7223283835183122392"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/locale.test.ts",
+          "hash": "7976415842588416030"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/locale.ts",
+          "hash": "2493649261102042353"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/common.json",
+          "hash": "276333209395862648"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/errors.json",
+          "hash": "6761377000895595405"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/hosts.json",
+          "hash": "11384955415518518712"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/keys.json",
+          "hash": "10908246533000549586"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/palette.json",
+          "hash": "8878155839705563732"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/remote.json",
+          "hash": "12573433364307810600"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/session.json",
+          "hash": "16351303371614979849"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/settings.json",
+          "hash": "17873491975968395924"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/snippets.json",
+          "hash": "9355746932814497390"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/terminal.json",
+          "hash": "16751349608179571816"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/updater.json",
+          "hash": "5039370248536107640"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/de/vault.json",
+          "hash": "5151242019310443586"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/common.json",
+          "hash": "11021065252347679511"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/errors.json",
+          "hash": "12327090143226942284"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/hosts.json",
+          "hash": "7859544569546372645"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/keys.json",
+          "hash": "17797323194178084024"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/palette.json",
+          "hash": "16957065138009708087"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/remote.json",
+          "hash": "14284575749346787392"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/session.json",
+          "hash": "1902765219951963284"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/settings.json",
+          "hash": "12128092881201901716"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/snippets.json",
+          "hash": "13547285111300390646"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/terminal.json",
+          "hash": "232720495315927701"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/updater.json",
+          "hash": "17777053728296864803"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/en/vault.json",
+          "hash": "8883633712044477071"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/common.json",
+          "hash": "15230467336007518075"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/errors.json",
+          "hash": "6898776531037525062"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/hosts.json",
+          "hash": "10269286130399629866"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/keys.json",
+          "hash": "236665964994852938"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/palette.json",
+          "hash": "7926452688676563987"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/remote.json",
+          "hash": "16233556304135105750"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/session.json",
+          "hash": "10746006774326554019"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/settings.json",
+          "hash": "14901879288481333459"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/snippets.json",
+          "hash": "2649320225093462273"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/terminal.json",
+          "hash": "7574947025020926737"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/updater.json",
+          "hash": "15248624132355054882"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/es/vault.json",
+          "hash": "5072225555176999482"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/common.json",
+          "hash": "2738707711434876593"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/errors.json",
+          "hash": "13037765465346865081"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/hosts.json",
+          "hash": "17408668577431166931"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/keys.json",
+          "hash": "12163280905770091747"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/palette.json",
+          "hash": "10338273277251346672"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/remote.json",
+          "hash": "1890208216270371615"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/session.json",
+          "hash": "11914234659751455689"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/settings.json",
+          "hash": "712187908446673083"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/snippets.json",
+          "hash": "13583356520970522811"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/terminal.json",
+          "hash": "12234189521670951845"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/updater.json",
+          "hash": "1180011857479208104"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/tr/vault.json",
+          "hash": "11044873908431061945"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/common.json",
+          "hash": "2903269523309778902"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/errors.json",
+          "hash": "18309105513143895985"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/hosts.json",
+          "hash": "9481023773654240827"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/keys.json",
+          "hash": "12809673897097215017"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/palette.json",
+          "hash": "767501339251298533"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/remote.json",
+          "hash": "9572320250603317894"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/session.json",
+          "hash": "2599162261034058796"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/settings.json",
+          "hash": "5897034386796050103"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/snippets.json",
+          "hash": "293739107954515858"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/terminal.json",
+          "hash": "13167917135479832300"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/updater.json",
+          "hash": "5034368969401543503"
+        },
+        {
+          "file": "apps/desktop-legacy/src/i18n/resources/zh/vault.json",
+          "hash": "45816871820659347"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/app/ipc.ts",
+          "hash": "13407783092781209112"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/env.ts",
+          "hash": "16643715581933787565"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/errors/appError.test.ts",
+          "hash": "628852948872051918"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/errors/appError.ts",
+          "hash": "791380927540249161"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/hosts/ipc.ts",
+          "hash": "9369037663468385888"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/hosts/platform.ts",
+          "hash": "823213010386097026"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/hosts/platformIcons.ts",
+          "hash": "4713689200949615125"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/keys/ipc.ts",
+          "hash": "16226718051114366564"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/noAutocapitalize.ts",
+          "hash": "4057282583945109480"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/drag.ts",
+          "hash": "11116167158738135027"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/entries.ts",
+          "hash": "6864899072565724810"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/fileIconKind.test.ts",
+          "hash": "15633669522492578107"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/fileIconKind.ts",
+          "hash": "6893325061612066536"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/fileTypeLabel.ts",
+          "hash": "16067250113297708494"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/format.ts",
+          "hash": "6713316212943033160"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/ipc.ts",
+          "hash": "13197118535000854299"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/paths.ts",
+          "hash": "1856757608972237782"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/pointerDrag.ts",
+          "hash": "14093042540660201306"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/sort.test.ts",
+          "hash": "13961447187010219296"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/remote/sort.ts",
+          "hash": "1664818047306798780"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/session/activity.ts",
+          "hash": "6799388618838128230"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/session/sshIdle.test.ts",
+          "hash": "11278884967713377879"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/settings/sshIdle.ts",
+          "hash": "9644659951923146984"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/settings/terminalFont.ts",
+          "hash": "17117551779028925469"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/snippets/ipc.ts",
+          "hash": "12646363196128326012"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/sync/ipc.ts",
+          "hash": "13361581262044412326"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/terminal/ipc.test.ts",
+          "hash": "10026932968931352794"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/terminal/ipc.ts",
+          "hash": "10261460145868325907"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/themes.ts",
+          "hash": "8757253011061871506"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/tray/ipc.ts",
+          "hash": "3516600539437670219"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/updater/background.ts",
+          "hash": "15093316713503893365"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/updater/check.ts",
+          "hash": "17967469401065739658"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/vault/biometric.ts",
+          "hash": "2767830675477508590"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/vault/ipc.test.ts",
+          "hash": "61334843944324698"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/vault/ipc.ts",
+          "hash": "5984234982589262031"
+        },
+        {
+          "file": "apps/desktop-legacy/src/lib/window.ts",
+          "hash": "7122292143779261749"
+        },
+        {
+          "file": "apps/desktop-legacy/src/main.tsx",
+          "hash": "18344022989816552786"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/hostStore.ts",
+          "hash": "6236914181471976351"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/keyStore.ts",
+          "hash": "9340655066695030495"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/navStore.ts",
+          "hash": "4266198685576277401"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/sessionStore.test.ts",
+          "hash": "3054464685322124123"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/sessionStore.ts",
+          "hash": "492973157981032505"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/settingsStore.test.ts",
+          "hash": "3536476892609477306"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/settingsStore.ts",
+          "hash": "6585111763578162044"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/snippetStore.ts",
+          "hash": "8185542057534339867"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/syncStore.test.ts",
+          "hash": "16777697368164004212"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/syncStore.ts",
+          "hash": "16237679021584809462"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/terminalLayoutStore.ts",
+          "hash": "7721596343302890070"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/terminalStreamStore.test.ts",
+          "hash": "5629945546915130546"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/terminalStreamStore.ts",
+          "hash": "4271658255429285"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/themeStore.ts",
+          "hash": "10597596834098168933"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/updaterStore.ts",
+          "hash": "15744056365546260412"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/vaultStore.test.ts",
+          "hash": "6683989577345257059"
+        },
+        {
+          "file": "apps/desktop-legacy/src/stores/vaultStore.ts",
+          "hash": "1350236491823928714"
+        },
+        {
+          "file": "apps/desktop-legacy/src/styles/app.css",
+          "hash": "6794714769780042377"
+        },
+        {
+          "file": "apps/desktop-legacy/src/styles/chrome.css",
+          "hash": "10959354481361745358"
+        },
+        {
+          "file": "apps/desktop-legacy/src/styles/tokens.css",
+          "hash": "3611538834197509523"
+        },
+        {
+          "file": "apps/desktop-legacy/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/desktop-legacy/tsconfig.json",
+          "hash": "14864890259702412056"
+        },
+        {
+          "file": "apps/desktop-legacy/tsconfig.node.json",
+          "hash": "8586866767247417612"
+        },
+        {
+          "file": "apps/desktop-legacy/vite.config.ts",
+          "hash": "5170559903535553936"
+        },
+        {
+          "file": "apps/desktop-legacy/vitest.config.ts",
+          "hash": "4192822321745410462"
+        }
+      ],
+      "@termsh/core-napi": [
+        {
+          "file": "packages/core-napi/index.js",
+          "hash": "5206554612904770940"
+        },
+        {
+          "file": "packages/core-napi/package.json",
+          "hash": "17940451856547444348"
+        },
+        {
+          "file": "packages/core-napi/scripts/build.mjs",
+          "hash": "3373648258399928333"
+        },
+        {
+          "file": "packages/core-napi/src/index.d.ts",
+          "hash": "17209212569595517503"
+        },
+        {
+          "file": "packages/core-napi/src/index.ts",
+          "hash": "7425772730085051806"
+        }
+      ],
+      "@termsh/shared": [
+        {
+          "file": "packages/shared/package.json",
+          "hash": "10443159913476901345",
+          "deps": [
+            "npm:typescript@5.6.3",
+            "npm:vitest",
+            "common"
+          ]
+        },
+        {
+          "file": "packages/shared/src/hostPlatform.ts",
+          "hash": "8079225307440337780"
+        },
+        {
+          "file": "packages/shared/src/index.ts",
+          "hash": "5649979642604278816"
+        },
+        {
+          "file": "packages/shared/src/types.test.ts",
+          "hash": "8112728243137941018"
+        },
+        {
+          "file": "packages/shared/src/types.ts",
+          "hash": "9871960701714759117"
+        },
+        {
+          "file": "packages/shared/tsconfig.json",
+          "hash": "11119007084881071420"
+        },
+        {
+          "file": "packages/shared/vitest.config.ts",
+          "hash": "12941604123487054848"
+        }
+      ],
+      "state": [
+        {
+          "file": "libs/state/package.json",
+          "hash": "13415753538530319323",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs@7.8.2"
+          ]
+        },
+        {
+          "file": "libs/state/project.json",
+          "hash": "2103235023783469293"
+        },
+        {
+          "file": "libs/state/src/host-state.service.ts",
+          "hash": "6485082914637423930"
+        },
+        {
+          "file": "libs/state/src/index.ts",
+          "hash": "3806219504220632778"
+        },
+        {
+          "file": "libs/state/src/vault-state.service.ts",
+          "hash": "15109444798033017939"
+        }
+      ],
+      "platform": [
+        {
+          "file": "libs/platform/package.json",
+          "hash": "12109676439648862898"
+        },
+        {
+          "file": "libs/platform/project.json",
+          "hash": "6367008311354166756"
+        },
+        {
+          "file": "libs/platform/src/index.ts",
+          "hash": "15852425356936053484"
+        }
+      ],
+      "components": [
+        {
+          "file": "libs/components/package.json",
+          "hash": "3098570349173884450",
+          "deps": [
+            "npm:@angular/core",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/components/project.json",
+          "hash": "12497858875480405418"
+        },
+        {
+          "file": "libs/components/src/index.ts",
+          "hash": "633581451946367820"
+        },
+        {
+          "file": "libs/components/src/termsh-logo.component.ts",
+          "hash": "15943695704977716772"
+        }
+      ],
+      "auth": [
+        {
+          "file": "libs/auth/project.json",
+          "hash": "16101809506468775773"
+        },
+        {
+          "file": "libs/auth/src/index.ts",
+          "hash": "7728401879187462125"
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/package.json",
+          "hash": "5181883845695156104",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:typescript",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "components",
+            "npm:rxjs@7.8.2",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "17984774971003653184"
+        },
+        {
+          "file": "apps/web/src/app/app.component.ts",
+          "hash": "13499023985388956299"
+        },
+        {
+          "file": "apps/web/src/app/app.config.ts",
+          "hash": "11783499433580711369"
+        },
+        {
+          "file": "apps/web/src/app/app.routes.ts",
+          "hash": "16603338979029374316"
+        },
+        {
+          "file": "apps/web/src/app/home.page.ts",
+          "hash": "769712762044152957"
+        },
+        {
+          "file": "apps/web/src/app/stub.page.ts",
+          "hash": "225415772017223250"
+        },
+        {
+          "file": "apps/web/src/index.html",
+          "hash": "4984233943619480148"
+        },
+        {
+          "file": "apps/web/src/main.ts",
+          "hash": "2527297952829435738"
+        },
+        {
+          "file": "apps/web/src/styles.css",
+          "hash": "9275302438750606163"
+        },
+        {
+          "file": "apps/web/tsconfig.app.json",
+          "hash": "7973460278338400404"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "8052664427233938577"
+        }
+      ],
+      "ssh": [
+        {
+          "file": "libs/ssh/project.json",
+          "hash": "7215331209209639556"
+        },
+        {
+          "file": "libs/ssh/src/index.ts",
+          "hash": "10696499132186091085"
+        }
+      ],
+      "angular": [
+        {
+          "file": "libs/angular/project.json",
+          "hash": "12205794339523323680"
+        },
+        {
+          "file": "libs/angular/src/index.ts",
+          "hash": "18225975564490809693"
+        }
+      ],
+      "assets": [
+        {
+          "file": "libs/assets/project.json",
+          "hash": "6301334677393892898"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/common.json",
+          "hash": "276333209395862648"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/errors.json",
+          "hash": "6761377000895595405"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/hosts.json",
+          "hash": "11384955415518518712"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/keys.json",
+          "hash": "10908246533000549586"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/palette.json",
+          "hash": "8878155839705563732"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/remote.json",
+          "hash": "12573433364307810600"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/session.json",
+          "hash": "16351303371614979849"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/settings.json",
+          "hash": "17873491975968395924"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/snippets.json",
+          "hash": "9355746932814497390"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/terminal.json",
+          "hash": "16751349608179571816"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/updater.json",
+          "hash": "5039370248536107640"
+        },
+        {
+          "file": "libs/assets/src/i18n/de/vault.json",
+          "hash": "5151242019310443586"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/common.json",
+          "hash": "11021065252347679511"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/errors.json",
+          "hash": "12327090143226942284"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/hosts.json",
+          "hash": "7859544569546372645"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/keys.json",
+          "hash": "17797323194178084024"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/palette.json",
+          "hash": "16957065138009708087"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/remote.json",
+          "hash": "14284575749346787392"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/session.json",
+          "hash": "1902765219951963284"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/settings.json",
+          "hash": "12128092881201901716"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/snippets.json",
+          "hash": "13547285111300390646"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/terminal.json",
+          "hash": "232720495315927701"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/updater.json",
+          "hash": "17777053728296864803"
+        },
+        {
+          "file": "libs/assets/src/i18n/en/vault.json",
+          "hash": "8883633712044477071"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/common.json",
+          "hash": "15230467336007518075"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/errors.json",
+          "hash": "6898776531037525062"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/hosts.json",
+          "hash": "10269286130399629866"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/keys.json",
+          "hash": "236665964994852938"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/palette.json",
+          "hash": "7926452688676563987"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/remote.json",
+          "hash": "16233556304135105750"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/session.json",
+          "hash": "10746006774326554019"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/settings.json",
+          "hash": "14901879288481333459"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/snippets.json",
+          "hash": "2649320225093462273"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/terminal.json",
+          "hash": "7574947025020926737"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/updater.json",
+          "hash": "15248624132355054882"
+        },
+        {
+          "file": "libs/assets/src/i18n/es/vault.json",
+          "hash": "5072225555176999482"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/common.json",
+          "hash": "2738707711434876593"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/errors.json",
+          "hash": "13037765465346865081"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/hosts.json",
+          "hash": "17408668577431166931"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/keys.json",
+          "hash": "12163280905770091747"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/palette.json",
+          "hash": "10338273277251346672"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/remote.json",
+          "hash": "1890208216270371615"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/session.json",
+          "hash": "11914234659751455689"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/settings.json",
+          "hash": "712187908446673083"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/snippets.json",
+          "hash": "13583356520970522811"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/terminal.json",
+          "hash": "12234189521670951845"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/updater.json",
+          "hash": "1180011857479208104"
+        },
+        {
+          "file": "libs/assets/src/i18n/tr/vault.json",
+          "hash": "11044873908431061945"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/common.json",
+          "hash": "2903269523309778902"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/errors.json",
+          "hash": "18309105513143895985"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/hosts.json",
+          "hash": "9481023773654240827"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/keys.json",
+          "hash": "12809673897097215017"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/palette.json",
+          "hash": "767501339251298533"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/remote.json",
+          "hash": "9572320250603317894"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/session.json",
+          "hash": "2599162261034058796"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/settings.json",
+          "hash": "5897034386796050103"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/snippets.json",
+          "hash": "293739107954515858"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/terminal.json",
+          "hash": "13167917135479832300"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/updater.json",
+          "hash": "5034368969401543503"
+        },
+        {
+          "file": "libs/assets/src/i18n/zh/vault.json",
+          "hash": "45816871820659347"
+        },
+        {
+          "file": "libs/assets/src/index.ts",
+          "hash": "18039486595504060063"
+        }
+      ],
+      "common": [
+        {
+          "file": "libs/common/package.json",
+          "hash": "16252438072330841750"
+        },
+        {
+          "file": "libs/common/project.json",
+          "hash": "401387586184705436"
+        },
+        {
+          "file": "libs/common/src/hostPlatform.ts",
+          "hash": "8079225307440337780"
+        },
+        {
+          "file": "libs/common/src/index.ts",
+          "hash": "7857121289421949767"
+        },
+        {
+          "file": "libs/common/src/types.test.ts",
+          "hash": "8112728243137941018"
+        },
+        {
+          "file": "libs/common/src/types.ts",
+          "hash": "9871960701714759117"
+        }
+      ],
+      "desktop": [
+        {
+          "file": "apps/desktop/README.md",
+          "hash": "13673673102196546256"
+        },
+        {
+          "file": "apps/desktop/electron/main.ts",
+          "hash": "14813838302492911910"
+        },
+        {
+          "file": "apps/desktop/electron/preload.ts",
+          "hash": "532849958727048035"
+        },
+        {
+          "file": "apps/desktop/electron/tsconfig.json",
+          "hash": "14278833707790703690"
+        },
+        {
+          "file": "apps/desktop/package.json",
+          "hash": "9477516949069049349",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:concurrently",
+            "npm:electron",
+            "npm:electron-builder",
+            "npm:typescript",
+            "npm:wait-on",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "common",
+            "components",
+            "@termsh/core-napi",
+            "platform",
+            "npm:electron-updater",
+            "npm:rxjs@7.8.2",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/desktop/project.json",
+          "hash": "2971723553564104582"
+        },
+        {
+          "file": "apps/desktop/src/app/app.component.ts",
+          "hash": "3588772027459913896"
+        },
+        {
+          "file": "apps/desktop/src/app/app.config.ts",
+          "hash": "11783499433580711369"
+        },
+        {
+          "file": "apps/desktop/src/app/app.routes.ts",
+          "hash": "2592509495469043065"
+        },
+        {
+          "file": "apps/desktop/src/app/home.component.ts",
+          "hash": "9192849491247846949"
+        },
+        {
+          "file": "apps/desktop/src/assets/brand/app-icon-macos.png",
+          "hash": "5406373154522151577"
+        },
+        {
+          "file": "apps/desktop/src/assets/brand/app-icon.png",
+          "hash": "187547864554630510"
+        },
+        {
+          "file": "apps/desktop/src/assets/brand/icon-mono.png",
+          "hash": "187547864554630510"
+        },
+        {
+          "file": "apps/desktop/src/assets/brand/wordmark-mono.png",
+          "hash": "10502452790623859087"
+        },
+        {
+          "file": "apps/desktop/src/index.html",
+          "hash": "13378321965686818855"
+        },
+        {
+          "file": "apps/desktop/src/main.ts",
+          "hash": "2527297952829435738"
+        },
+        {
+          "file": "apps/desktop/src/styles.css",
+          "hash": "3960465289237949915"
+        },
+        {
+          "file": "apps/desktop/tsconfig.app.json",
+          "hash": "11938996315502235617"
+        },
+        {
+          "file": "apps/desktop/tsconfig.json",
+          "hash": "3015078156742824770"
+        }
+      ]
+    }
+  }
+}

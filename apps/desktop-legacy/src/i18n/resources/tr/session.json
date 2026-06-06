@@ -1,0 +1,21 @@
+{
+  "tabBarAria": "Oturum sekmeleri",
+  "openSessionsAria": "Açık oturumlar",
+  "terminalTitle": "Terminal / oturumlar",
+  "terminal": "Terminal",
+  "closeSession": "Oturumu kapat",
+  "splitOff": "Bölünmüş görünüm",
+  "splitVertical": "Dikey bölme (tıkla: yatay)",
+  "splitHorizontal": "Yatay bölme (tıkla: kapat)",
+  "splitAria": "Bölünmüş görünüm",
+  "newSession": {
+    "title": "Yeni oturum",
+    "localTerminal": "Yerel terminal",
+    "localHint": "Bu cihazda shell",
+    "host": "Host",
+    "hostHint": "SSH ile bağlan",
+    "back": "Geri",
+    "hostsAria": "Hostlar",
+    "noHosts": "Henüz host yok — ekle"
+  }
+}

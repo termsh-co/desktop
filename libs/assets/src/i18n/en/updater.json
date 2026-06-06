@@ -1,0 +1,7 @@
+{
+  "title": "termsh update",
+  "noUpdate": "No updates available.",
+  "updateReady": "Version {{version}} is ready. Install now?",
+  "notificationTitle": "termsh update",
+  "notificationBody": "Version {{version}} is available to download."
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Ajustes",
+  "backToServers": "Servidores",
+  "language": {
+    "title": "Idioma",
+    "desc": "Elige el idioma de la interfaz. Se aplica al instante.",
+    "label": "Idioma de visualización"
+  },
+  "theme": {
+    "title": "Tema",
+    "desc": "Los colores de la interfaz y del terminal cambian juntos.",
+    "names": {
+      "rego": "termsh",
+      "aurora": "Aurora",
+      "ember": "Ember",
+      "obsidian": "Obsidiana",
+      "forest": "Bosque",
+      "light": "Claro"
+    }
+  },
+  "security": {
+    "title": "Seguridad",
+    "desc": "Las sesiones SSH inactivas se cierran automáticamente tras el tiempo seleccionado.",
+    "idleLabel": "Cerrar SSH inactivo después de"
+  },
+  "sshIdle": {
+    "0": "Nunca",
+    "15": "15 minutos",
+    "30": "30 minutos",
+    "60": "60 minutos",
+    "120": "2 horas"
+  },
+  "terminal": {
+    "title": "Terminal",
+    "desc": "La fuente y el tamaño se aplican al instante a todas las pestañas abiertas.",
+    "fontLabel": "Fuente",
+    "sizeLabel": "Tamaño",
+    "sizePx": "{{size}}px"
+  },
+  "sync": {
+    "title": "Sincronización",
+    "desc": "Sincronización en la nube E2EE de conocimiento cero. El servidor no puede leer tus datos.",
+    "serverUrl": "URL del servidor",
+    "accessToken": "Token de acceso",
+    "connectedAs": "Conectado como {{email}}",
+    "notConnected": "No conectado",
+    "testConnection": "Probar conexión",
+    "pull": "Descargar",
+    "push": "Subir",
+    "autoSync": "Sincronizar automáticamente cada 5 minutos",
+    "serverRequired": "Se requieren la URL del servidor y el token de acceso.",
+    "serverUrlPlaceholder": "https://sync.termsh.app",
+    "accessTokenPlaceholder": "Token de acceso JWT"
+  },
+  "updates": {
+    "title": "Actualizaciones",
+    "desc": "Busca e instala actualizaciones desde GitHub Releases.",
+    "version": "Versión",
+    "checking": "Comprobando…",
+    "checkForUpdates": "Buscar actualizaciones"
+  }
+}

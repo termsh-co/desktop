@@ -1,0 +1,39 @@
+{
+  "title": "Claves",
+  "subtitle": "Gestiona claves privadas SSH. Almacenadas cifradas en la bóveda.",
+  "addKey": "+ Añadir clave",
+  "searchPlaceholder": "Buscar claves…",
+  "vaultLocked": "Bóveda bloqueada. Desbloquéala para añadir o editar claves.",
+  "empty": "Aún no hay claves.",
+  "deleteConfirm": "¿Eliminar esta clave?",
+  "drawer": {
+    "titleAdd": "Añadir clave",
+    "titleEdit": "Editar clave",
+    "titleCreated": "Clave creada",
+    "subtitleStored": "Almacenada cifrada en la bóveda.",
+    "subtitleCreated": "Copia la clave pública al authorized_keys del servidor.",
+    "modeAria": "Modo de añadir clave",
+    "generate": "Generar",
+    "import": "Importar",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Prod SSH key",
+    "tagsLabel": "Etiquetas",
+    "tagsPlaceholder": "prod, ops",
+    "algorithmLabel": "Algoritmo",
+    "algorithmEd25519": "Ed25519 (recomendado)",
+    "algorithmRsa": "RSA 4096",
+    "privateKeyLabel": "Clave privada (PEM)",
+    "privateKeyPlaceholderNew": "-----BEGIN OPENSSH PRIVATE KEY-----\n...\n-----END OPENSSH PRIVATE KEY-----",
+    "privateKeyPlaceholderRotate": "Opcional — pega una nueva clave para rotar",
+    "publicKeyLabel": "Clave pública",
+    "saving": "Guardando…",
+    "generating": "Generando…",
+    "done": "Listo",
+    "errors": {
+      "nameRequired": "El nombre es obligatorio.",
+      "privateKeyRequired": "La clave privada es obligatoria.",
+      "generateUnavailable": "La generación de claves no está disponible.",
+      "copyFailed": "No se pudo copiar al portapapeles."
+    }
+  }
+}

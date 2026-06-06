@@ -1,0 +1,22 @@
+{
+  "searchPlaceholder": "Buscar…",
+  "searchAria": "Buscar",
+  "empty": "Sin resultados",
+  "commandPaletteAria": "Paleta de comandos",
+  "palettePlaceholder": "Buscar servidores, comandos o pantallas…",
+  "paletteFoot": "Esc cerrar · Enter seleccionar",
+  "hintScreen": "Pantalla",
+  "nav": {
+    "hosts": "Servidores",
+    "terminal": "Terminal",
+    "snippets": "Fragmentos",
+    "remote": "SFTP / FTP",
+    "vault": "Bóveda",
+    "keys": "Claves",
+    "settings": "Ajustes"
+  },
+  "newHost": "Nuevo host…",
+  "vaultActions": "Acciones de bóveda",
+  "vaultSetup": "Configurar bóveda…",
+  "connect": "Conectar: {{name}}"
+}

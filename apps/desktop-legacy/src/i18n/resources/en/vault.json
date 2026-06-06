@@ -1,0 +1,79 @@
+{
+  "title": "Secure vault",
+  "subtitle": "SSH passwords and private keys are encrypted on your device.",
+  "status": {
+    "notSetup": "Vault not set up yet",
+    "unlocked": "Vault unlocked — secrets available",
+    "locked": "Vault locked"
+  },
+  "keychain": {
+    "enabled": "Keychain: auto-unlock enabled on this device",
+    "disabled": "Keychain: not saved. Check remember when unlocking."
+  },
+  "biometric": {
+    "touchId": "Touch ID",
+    "faceId": "Face ID",
+    "windowsHello": "Windows Hello",
+    "generic": "Biometrics",
+    "enabled": "{{method}}: quick unlock enabled on this device"
+  },
+  "actions": {
+    "setup": "Set up vault",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "forgetKeychain": "Forget keychain",
+    "forgetDeviceUnlock": "Remove quick unlock"
+  },
+  "protectsTitle": "What the vault protects",
+  "protects": {
+    "passwords": "SSH passwords (AES-256-GCM)",
+    "keys": "Private keys (ED25519 / RSA)",
+    "snippets": "Snippet contents",
+    "kdf": "Key derivation: Argon2id"
+  },
+  "unlock": {
+    "title": "Vault",
+    "subtitle": "Enter your master password to unlock.",
+    "masterPassword": "Master password",
+    "placeholder": "Enter master password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "rememberKeychain": "Remember master password on this Mac (Keychain)",
+    "useBiometric": "Unlock with {{method}} on this device",
+    "biometricButton": "Unlock with {{method}}",
+    "unlocking": "Unlocking…",
+    "unlockButton": "Unlock",
+    "footnote": "Terminal works without a vault too."
+  },
+  "setup": {
+    "title": "Encrypted vault",
+    "lead": "Your SSH passwords and private keys are encrypted on your device. Optional — local terminal and host bookmarks work without it.",
+    "masterPassword": "Master password",
+    "confirmPassword": "Confirm password",
+    "rememberKeychain": "Remember master password on this Mac (Keychain)",
+    "useBiometric": "Unlock with {{method}} on this device",
+    "passwordMismatch": "Passwords do not match",
+    "creating": "Creating…",
+    "createButton": "Create vault",
+    "skip": "Not now"
+  },
+  "gate": {
+    "initFailed": "Could not start",
+    "devHint": "From project root in terminal: <code>pnpm dev</code>",
+    "loading": "Loading…"
+  },
+  "onboarding": {
+    "title": "How do you want to use termsh?",
+    "subtitle": "termsh keeps SSH passwords and private keys encrypted — never in plain text.",
+    "chooseSubtitle": "Choose how to get started. You can change this later in Settings.",
+    "localTitle": "Local vault",
+    "localLead": "Encrypt passwords and keys on this device only. One master password unlocks everything.",
+    "cloudTitle": "Cloud sync",
+    "cloudLead": "Back up hosts, snippets, and keys across devices. The server only sees encrypted data it cannot read.",
+    "cloudRequiresVault": "Requires a vault first — your master password never leaves this device.",
+    "cloudNote": "Sync account password only signs you in to the API; it cannot decrypt your data.",
+    "setupButton": "Set up vault",
+    "cloudSetupButton": "Set up vault + cloud sync",
+    "skipButton": "Continue without vault"
+  }
+}

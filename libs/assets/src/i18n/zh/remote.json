@@ -1,0 +1,58 @@
+{
+  "view": {
+    "searchPlaceholder": "搜索 SFTP 主机…",
+    "addServer": "添加服务器",
+    "empty": "尚无服务器。添加一台以通过 SFTP 浏览文件。",
+    "noResults": "无结果。",
+    "connected": "已连接",
+    "editHostAria": "{{name}} — 编辑"
+  },
+  "explorer": {
+    "idleHint": "从 SFTP / FTP 屏幕选择服务器。",
+    "local": "本地",
+    "remote": "远程",
+    "upload": "↑ 上传",
+    "download": "↓ 下载",
+    "pickFile": "选择文件…",
+    "uploadSelectedTitle": "上传所选文件",
+    "downloadSelectedTitle": "下载所选文件",
+    "retry": "重试",
+    "localList": "本地列表",
+    "filesCount": "{{count}} 个文件",
+    "transferRunning": "…",
+    "transferDone": "完成",
+    "transferError": "错误",
+    "errors": {
+      "foldersCannotUpload": "无法上传文件夹 — 请选择文件",
+      "noServerSession": "无服务器会话",
+      "foldersCannotDownload": "无法下载文件夹 — 请选择文件",
+      "symlinkCannotDownload": "无法下载符号链接 — 双击打开",
+      "localFolderNotLoaded": "本地文件夹尚未加载"
+    }
+  },
+  "grid": {
+    "colName": "名称",
+    "colSize": "大小",
+    "colType": "类型",
+    "colModified": "修改时间",
+    "emptyDir": "空目录",
+    "loading": "加载中…",
+    "dropTitle": "将文件拖放到此处",
+    "dropUpload": "上传到服务器",
+    "dropDownload": "下载到此文件夹",
+    "parentDir": "上级目录",
+    "open": "打开",
+    "goParent": "转到上级",
+    "uploadToServer": "上传到服务器",
+    "download": "下载",
+    "copyPath": "复制路径",
+    "refresh": "刷新",
+    "pickUpload": "上传文件…",
+    "fileTypes": {
+      "folder": "文件夹",
+      "document": "文档",
+      "link": "链接",
+      "other": "其他"
+    }
+  }
+}

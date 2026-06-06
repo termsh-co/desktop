@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/apps/desktop"
+  },
+  "files": [],
+  "include": [],
+  "references": [{ "path": "./tsconfig.app.json" }]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Actualización de termsh",
+  "noUpdate": "No hay actualizaciones disponibles.",
+  "updateReady": "La versión {{version}} está lista. ¿Instalar ahora?",
+  "notificationTitle": "Actualización de termsh",
+  "notificationBody": "La versión {{version}} está disponible para descargar."
+}

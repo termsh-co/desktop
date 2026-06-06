@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "termsh",
+  "version": "0.0.0",
+  "identifier": "app.termsh.desktop",
+  "build": {
+    "beforeDevCommand": "pnpm dev:web",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "termsh",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 900,
+        "minHeight": 560,
+        "resizable": true,
+        "fullscreen": false,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
+        "transparent": true,
+        "trafficLightPosition": {
+          "x": 14,
+          "y": 40
+        },
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": false,
+    "targets": [
+      "dmg",
+      "app",
+      "deb",
+      "appimage",
+      "nsis"
+    ],
+    "category": "DeveloperTool",
+    "shortDescription": "Hafif SSH ve terminal istemcisi",
+    "longDescription": "termsh — yerel shell, SSH oturumları, şifreli kasa ve host rehberi.",
+    "copyright": "Copyright © Monolit Digital",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "entitlements": "Entitlements.plist",
+      "dmg": {
+        "windowSize": {
+          "width": 660,
+          "height": 400
+        },
+        "appPosition": {
+          "x": 180,
+          "y": 170
+        },
+        "applicationFolderPosition": {
+          "x": 480,
+          "y": 170
+        }
+      }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEUwM0NDMDQxODk4MDhDOTUKUldTVmpJQ0pRY0E4NEhlWDJZSHhWSUlRTDY4MFlHcmJqVDNPR05JVFl4WHJhUlpRQTBsd0krWisK",
+      "endpoints": [
+        "https://github.com/termsh-co/clients/releases/latest/download/latest.json"
+      ],
+      "dialog": true
+    }
+  }
+}

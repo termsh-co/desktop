@@ -1,0 +1,37 @@
+{
+  "connect": {
+    "connecting": "Bağlanılıyor",
+    "failed": "Bağlanamadı",
+    "defaultError": "Bağlantı kurulamadı. Host erişilebilir mi kontrol edin.",
+    "timeout": "Bağlantı zaman aşımı. Host erişilebilir mi kontrol edin.",
+    "hostNotFound": "Host bulunamadı.",
+    "vaultLocked": "Kasa kilitli. Kayıtlı parola için üst menüden kasayı açın.",
+    "passwordRequired": "SSH parolasını girin.",
+    "passwordLabel": "SSH parolası",
+    "passwordPlaceholderStored": "Boş = kasadaki parola",
+    "passwordPlaceholderEnter": "Parolanızı girin",
+    "connectButton": "Bağlan",
+    "connectingButton": "Bağlanıyor",
+    "hint": "Parolayı girin ve Bağlan'a basın.",
+    "retry": "Tekrar dene",
+    "editHost": "Düzenle"
+  },
+  "idle": {
+    "hint": "Üst menüden Terminal'e geçin veya bir hosta bağlanın.",
+    "openTerminal": "Terminal aç"
+  },
+  "split": {
+    "primaryAria": "Birincil panel",
+    "secondaryAria": "İkincil panel",
+    "primary": "Birincil",
+    "split": "Bölünmüş",
+    "secondarySession": "İkincil oturum",
+    "noOtherSession": "Başka oturum yok",
+    "local": "Yerel"
+  },
+  "spawn": {
+    "hostIdMissing": "Host kimliği eksik",
+    "sshFailed": "SSH bağlantısı başlatılamadı",
+    "shellFailed": "Shell başlatılamadı"
+  }
+}

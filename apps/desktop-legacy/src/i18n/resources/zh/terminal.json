@@ -1,0 +1,37 @@
+{
+  "connect": {
+    "connecting": "连接中",
+    "failed": "无法连接",
+    "defaultError": "连接失败。请检查主机是否可达。",
+    "timeout": "连接超时。请检查主机是否可达。",
+    "hostNotFound": "未找到主机。",
+    "vaultLocked": "保险库已锁定。请从顶部菜单解锁以使用已存储的密码。",
+    "passwordRequired": "请输入 SSH 密码。",
+    "passwordLabel": "SSH 密码",
+    "passwordPlaceholderStored": "留空 = 已存储的密码",
+    "passwordPlaceholderEnter": "输入您的密码",
+    "connectButton": "连接",
+    "connectingButton": "连接中",
+    "hint": "输入密码并按连接。",
+    "retry": "重试",
+    "editHost": "编辑"
+  },
+  "idle": {
+    "hint": "从顶部菜单打开终端或连接到主机。",
+    "openTerminal": "打开终端"
+  },
+  "split": {
+    "primaryAria": "主面板",
+    "secondaryAria": "副面板",
+    "primary": "主",
+    "split": "分屏",
+    "secondarySession": "副会话",
+    "noOtherSession": "没有其他会话",
+    "local": "本地"
+  },
+  "spawn": {
+    "hostIdMissing": "缺少主机 ID",
+    "sshFailed": "无法启动 SSH 连接",
+    "shellFailed": "无法启动 Shell"
+  }
+}

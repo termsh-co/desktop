@@ -1,0 +1,37 @@
+{
+  "connect": {
+    "connecting": "Verbindung wird hergestellt",
+    "failed": "Verbindung fehlgeschlagen",
+    "defaultError": "Verbindung fehlgeschlagen. Prüfe, ob der Host erreichbar ist.",
+    "timeout": "Verbindungszeitüberschreitung. Prüfe, ob der Host erreichbar ist.",
+    "hostNotFound": "Host nicht gefunden.",
+    "vaultLocked": "Tresor gesperrt. Entsperre ihn im oberen Menü, um gespeicherte Passwörter zu nutzen.",
+    "passwordRequired": "SSH-Passwort eingeben.",
+    "passwordLabel": "SSH-Passwort",
+    "passwordPlaceholderStored": "Leer = gespeichertes Passwort",
+    "passwordPlaceholderEnter": "Passwort eingeben",
+    "connectButton": "Verbinden",
+    "connectingButton": "Verbinden",
+    "hint": "Passwort eingeben und Verbinden drücken.",
+    "retry": "Erneut versuchen",
+    "editHost": "Bearbeiten"
+  },
+  "idle": {
+    "hint": "Öffne Terminal über das obere Menü oder verbinde dich mit einem Host.",
+    "openTerminal": "Terminal öffnen"
+  },
+  "split": {
+    "primaryAria": "Primärer Bereich",
+    "secondaryAria": "Sekundärer Bereich",
+    "primary": "Primär",
+    "split": "Geteilt",
+    "secondarySession": "Sekundäre Sitzung",
+    "noOtherSession": "Keine andere Sitzung",
+    "local": "Lokal"
+  },
+  "spawn": {
+    "hostIdMissing": "Host-ID fehlt",
+    "sshFailed": "SSH-Verbindung konnte nicht gestartet werden",
+    "shellFailed": "Shell konnte nicht gestartet werden"
+  }
+}

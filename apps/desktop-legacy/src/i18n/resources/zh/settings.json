@@ -1,0 +1,62 @@
+{
+  "title": "设置",
+  "backToServers": "服务器",
+  "language": {
+    "title": "语言",
+    "desc": "选择界面语言，更改后立即生效。",
+    "label": "显示语言"
+  },
+  "theme": {
+    "title": "主题",
+    "desc": "界面和终端颜色将一起更改。",
+    "names": {
+      "rego": "termsh",
+      "aurora": "Aurora",
+      "ember": "Ember",
+      "obsidian": "Obsidian",
+      "forest": "Forest",
+      "light": "浅色"
+    }
+  },
+  "security": {
+    "title": "安全",
+    "desc": "空闲 SSH 会话将在所选时间后自动关闭。",
+    "idleLabel": "空闲 SSH 自动关闭"
+  },
+  "sshIdle": {
+    "0": "永不",
+    "15": "15 分钟",
+    "30": "30 分钟",
+    "60": "60 分钟",
+    "120": "2 小时"
+  },
+  "terminal": {
+    "title": "终端",
+    "desc": "字体和大小将立即应用于所有打开的终端标签页。",
+    "fontLabel": "字体",
+    "sizeLabel": "大小",
+    "sizePx": "{{size}}px"
+  },
+  "sync": {
+    "title": "同步",
+    "desc": "零知识 E2EE 云同步，服务器无法读取您的数据。",
+    "serverUrl": "服务器 URL",
+    "accessToken": "访问令牌",
+    "connectedAs": "已连接为 {{email}}",
+    "notConnected": "未连接",
+    "testConnection": "测试连接",
+    "pull": "拉取",
+    "push": "推送",
+    "autoSync": "每 5 分钟自动同步",
+    "serverRequired": "需要服务器 URL 和访问令牌。",
+    "serverUrlPlaceholder": "https://sync.termsh.app",
+    "accessTokenPlaceholder": "JWT 访问令牌"
+  },
+  "updates": {
+    "title": "更新",
+    "desc": "从 GitHub Releases 检查并安装更新。",
+    "version": "版本",
+    "checking": "检查中…",
+    "checkForUpdates": "检查更新"
+  }
+}

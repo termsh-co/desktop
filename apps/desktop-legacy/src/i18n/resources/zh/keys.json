@@ -1,0 +1,39 @@
+{
+  "title": "密钥",
+  "subtitle": "管理 SSH 私钥，加密存储在保险库中。",
+  "addKey": "+ 添加密钥",
+  "searchPlaceholder": "搜索密钥…",
+  "vaultLocked": "保险库已锁定。解锁后可添加或编辑密钥。",
+  "empty": "尚无密钥。",
+  "deleteConfirm": "删除此密钥？",
+  "drawer": {
+    "titleAdd": "添加密钥",
+    "titleEdit": "编辑密钥",
+    "titleCreated": "密钥已创建",
+    "subtitleStored": "加密存储在保险库中。",
+    "subtitleCreated": "将公钥复制到服务器的 authorized_keys。",
+    "modeAria": "添加密钥模式",
+    "generate": "生成",
+    "import": "导入",
+    "nameLabel": "名称",
+    "namePlaceholder": "Prod SSH key",
+    "tagsLabel": "标签",
+    "tagsPlaceholder": "prod, ops",
+    "algorithmLabel": "算法",
+    "algorithmEd25519": "Ed25519（推荐）",
+    "algorithmRsa": "RSA 4096",
+    "privateKeyLabel": "私钥 (PEM)",
+    "privateKeyPlaceholderNew": "-----BEGIN OPENSSH PRIVATE KEY-----\n...\n-----END OPENSSH PRIVATE KEY-----",
+    "privateKeyPlaceholderRotate": "可选 — 粘贴新密钥以轮换",
+    "publicKeyLabel": "公钥",
+    "saving": "保存中…",
+    "generating": "生成中…",
+    "done": "完成",
+    "errors": {
+      "nameRequired": "名称为必填项。",
+      "privateKeyRequired": "私钥为必填项。",
+      "generateUnavailable": "密钥生成不可用。",
+      "copyFailed": "无法复制到剪贴板。"
+    }
+  }
+}

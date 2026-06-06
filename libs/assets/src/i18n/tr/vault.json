@@ -1,0 +1,79 @@
+{
+  "title": "Güvenli kasa",
+  "subtitle": "SSH parolaları ve özel anahtarlar cihazınızda şifrelenir.",
+  "status": {
+    "notSetup": "Kasa henüz kurulmadı",
+    "unlocked": "Kasa açık — sırlar kullanılabilir",
+    "locked": "Kasa kilitli"
+  },
+  "keychain": {
+    "enabled": "Anahtarlık: bu cihazda otomatik kilit açma etkin",
+    "disabled": "Anahtarlık: kayıtlı değil. Kilidi açarken hatırla seçeneğini işaretleyin."
+  },
+  "biometric": {
+    "touchId": "Touch ID",
+    "faceId": "Face ID",
+    "windowsHello": "Windows Hello",
+    "generic": "Biyometri",
+    "enabled": "{{method}}: bu cihazda hızlı kilit açma etkin"
+  },
+  "actions": {
+    "setup": "Kasa kur",
+    "lock": "Kilitle",
+    "unlock": "Kilidi aç",
+    "forgetKeychain": "Anahtarlığı unut",
+    "forgetDeviceUnlock": "Hızlı kilit açmayı kaldır"
+  },
+  "protectsTitle": "Kasa nelere korur",
+  "protects": {
+    "passwords": "SSH parolaları (AES-256-GCM)",
+    "keys": "Özel anahtarlar (ED25519 / RSA)",
+    "snippets": "Snippet içerikleri",
+    "kdf": "Anahtar türetme: Argon2id"
+  },
+  "unlock": {
+    "title": "Kasa",
+    "subtitle": "Kilidi açmak için ana parolanızı girin.",
+    "masterPassword": "Ana parola",
+    "placeholder": "Ana parolayı girin",
+    "showPassword": "Parolayı göster",
+    "hidePassword": "Parolayı gizle",
+    "rememberKeychain": "Bu Mac'te ana parolayı hatırla (Anahtarlık)",
+    "useBiometric": "Bu cihazda {{method}} ile kilidi aç",
+    "biometricButton": "{{method}} ile kilidi aç",
+    "unlocking": "Açılıyor…",
+    "unlockButton": "Kilidi aç",
+    "footnote": "Terminal, kasa olmadan da kullanılabilir."
+  },
+  "setup": {
+    "title": "Şifreli kasa",
+    "lead": "SSH parola ve özel anahtarlarınız cihazınızda şifrelenir. İsteğe bağlıdır; kurmadan da yerel terminal ve host yer imleri kullanılabilir.",
+    "masterPassword": "Ana parola",
+    "confirmPassword": "Parola tekrar",
+    "rememberKeychain": "Bu Mac'te ana parolayı hatırla (Anahtarlık)",
+    "useBiometric": "Bu cihazda {{method}} ile kilidi aç",
+    "passwordMismatch": "Parolalar eşleşmiyor",
+    "creating": "Oluşturuluyor…",
+    "createButton": "Kasayı oluştur",
+    "skip": "Şimdilik değil"
+  },
+  "gate": {
+    "initFailed": "Başlatılamadı",
+    "devHint": "Terminalde proje kökünden: <code>pnpm dev</code>",
+    "loading": "Yükleniyor…"
+  },
+  "onboarding": {
+    "title": "termsh'i nasıl kullanmak istiyorsunuz?",
+    "subtitle": "termsh, SSH parolalarını ve anahtarları şifreli tutar — asla düz metin değil.",
+    "chooseSubtitle": "Başlamak için bir yol seçin. Bunu sonra Ayarlar'dan değiştirebilirsiniz.",
+    "localTitle": "Yerel kasa",
+    "localLead": "Parola ve anahtarları yalnızca bu cihazda şifrele. Tek ana parola her şeyin kilidini açar.",
+    "cloudTitle": "Bulut senkronu",
+    "cloudLead": "Host, snippet ve anahtarları cihazlar arası yedekle. Sunucu yalnızca okuyamadığı şifreli veriyi görür.",
+    "cloudRequiresVault": "Önce kasa gerekir — ana parolanız bu cihazdan çıkmaz.",
+    "cloudNote": "Sync hesap parolası yalnızca API girişi içindir; verinizi çözemez.",
+    "setupButton": "Kasayı kur",
+    "cloudSetupButton": "Kasa + bulut senkronu kur",
+    "skipButton": "Kasa olmadan devam et"
+  }
+}

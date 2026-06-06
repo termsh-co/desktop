@@ -1,0 +1,9 @@
+#!/bin/sh
+# Cursor agent Co-authored-by satırını commit mesajından kaldır
+MSG_FILE="$1"
+[ -f "$MSG_FILE" ] || exit 0
+grep -v '^Co-authored-by: Cursor <cursoragent@cursor.com>$' "$MSG_FILE" \
+  | grep -v -i 'Co-authored-by:.*e2r' \
+  | grep -v -i 'Co-authored-by:.*fr-app' \
+  > "${MSG_FILE}.tmp" \
+  && mv "${MSG_FILE}.tmp" "$MSG_FILE"

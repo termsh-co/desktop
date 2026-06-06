@@ -1,0 +1,7 @@
+{
+  "title": "termsh güncellemesi",
+  "noUpdate": "Güncelleme yok.",
+  "updateReady": "Sürüm {{version}} hazır. Şimdi yüklensin mi?",
+  "notificationTitle": "termsh güncellemesi",
+  "notificationBody": "Sürüm {{version}} indirilebilir."
+}

@@ -1,0 +1,22 @@
+{
+  "searchPlaceholder": "Ara…",
+  "searchAria": "Ara",
+  "empty": "Sonuç yok",
+  "commandPaletteAria": "Komut paleti",
+  "palettePlaceholder": "Sunucu, komut veya ekran ara…",
+  "paletteFoot": "Esc kapat · Enter seç",
+  "hintScreen": "Ekran",
+  "nav": {
+    "hosts": "Hostlar",
+    "terminal": "Terminal",
+    "snippets": "Snippet",
+    "remote": "SFTP / FTP",
+    "vault": "Kasa",
+    "keys": "Anahtar",
+    "settings": "Ayarlar"
+  },
+  "newHost": "Yeni host…",
+  "vaultActions": "Kasa işlemleri",
+  "vaultSetup": "Kasa kur…",
+  "connect": "Bağlan: {{name}}"
+}

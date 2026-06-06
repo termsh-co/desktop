@@ -1,0 +1,21 @@
+{
+  "tabBarAria": "Sitzungs-Tabs",
+  "openSessionsAria": "Offene Sitzungen",
+  "terminalTitle": "Terminal / Sitzungen",
+  "terminal": "Terminal",
+  "closeSession": "Sitzung schließen",
+  "splitOff": "Geteilte Ansicht",
+  "splitVertical": "Vertikale Teilung (Klick: horizontal)",
+  "splitHorizontal": "Horizontale Teilung (Klick: schließen)",
+  "splitAria": "Geteilte Ansicht",
+  "newSession": {
+    "title": "Neue Sitzung",
+    "localTerminal": "Lokales Terminal",
+    "localHint": "Shell auf diesem Gerät",
+    "host": "Host",
+    "hostHint": "Per SSH verbinden",
+    "back": "Zurück",
+    "hostsAria": "Hosts",
+    "noHosts": "Noch keine Hosts — hinzufügen"
+  }
+}

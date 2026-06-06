@@ -1,0 +1,7 @@
+{
+  "title": "termsh 更新",
+  "noUpdate": "没有可用更新。",
+  "updateReady": "版本 {{version}} 已就绪。立即安装？",
+  "notificationTitle": "termsh 更新",
+  "notificationBody": "版本 {{version}} 可供下载。"
+}

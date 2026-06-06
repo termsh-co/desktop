@@ -1,0 +1,72 @@
+{
+  "toolbar": {
+    "newHost": "新主机",
+    "terminal": "终端"
+  },
+  "empty": {
+    "message": "尚无主机。添加第一台服务器以开始。",
+    "addButton": "添加主机"
+  },
+  "drawer": {
+    "titleNew": "新主机",
+    "titleEdit": "编辑主机",
+    "deleteHost": "删除主机",
+    "deleteConfirm": "删除「{{name}}」？此操作无法撤销。",
+    "subNew": "添加 SSH 连接",
+    "subEdit": "更新连接信息",
+    "displayName": "显示名称",
+    "hostname": "主机名 / IP",
+    "port": "端口",
+    "username": "用户名",
+    "platform": "操作系统",
+    "platformHint": "操作系统图标将在首次 SSH 连接成功后自动识别。",
+    "authLegend": "身份验证",
+    "authPassword": "密码",
+    "authPrivateKey": "私钥",
+    "tags": "标签",
+    "group": "分组",
+    "colorLabel": "颜色标记",
+    "colorAria": "颜色 {{color}}",
+    "savedKey": "已保存的密钥",
+    "savedKeyNone": "无（手动输入 PEM）",
+    "saving": "保存中…",
+    "noCredentialWarn": "此主机在保险库中没有已存储的密码或密钥。连接前请在下方输入。",
+    "passwordLabel": "SSH 密码",
+    "passwordLabelNew": "SSH 密码（保存到保险库）",
+    "passwordPlaceholderChange": "输入新密码以更改",
+    "passwordPlaceholderVaultLater": "设置保险库后保存",
+    "privateKeyLabel": "私钥 (PEM)",
+    "privateKeyLabelNew": "PEM 私钥",
+    "privateKeyPlaceholderChange": "粘贴新密钥以轮换",
+    "privateKeyPlaceholderVaultLater": "设置保险库后保存",
+    "pemHeaderPlaceholder": "-----BEGIN OPENSSH PRIVATE KEY-----",
+    "placeholders": {
+      "displayName": "production-api",
+      "hostname": "192.168.1.10",
+      "username": "root",
+      "tags": "prod, web",
+      "group": "production"
+    },
+    "platforms": {
+      "linux": "Linux",
+      "ubuntu": "Ubuntu",
+      "debian": "Debian",
+      "centos": "RHEL / CentOS",
+      "fedora": "Fedora",
+      "alpine": "Alpine",
+      "arch": "Arch Linux",
+      "windows": "Windows",
+      "macos": "macOS",
+      "freebsd": "FreeBSD",
+      "unknown": "未知"
+    },
+    "noVaultHint": "无需保险库也可保存主机书签。密码在设置保险库前不会保存 — 连接时会提示输入。",
+    "keepCredentialHint": "留空则保留保险库中的现有密码或密钥。连接时使用同一记录。",
+    "errors": {
+      "vaultRequiredForSave": "请先设置加密保险库以保存密码或密钥（顶部菜单中的保险库）。",
+      "passwordRequired": "请输入 SSH 密码 — 必须保存到保险库才能连接。",
+      "privateKeyRequired": "请输入 PEM 私钥 — 必须保存到保险库才能连接。",
+      "vaultRequiredForConnect": "SSH 需要密码或密钥。请先在保险库屏幕设置并解锁保险库。"
+    }
+  }
+}

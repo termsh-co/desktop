@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "servers": "Sunucular",
+    "snippets": "Snippet'ler",
+    "vault": "Kasa",
+    "keys": "Anahtarlar",
+    "settings": "Ayarlar",
+    "navigation": "Gezinme",
+    "pages": "Sayfalar"
+  },
+  "actions": {
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "retry": "Yeniden dene",
+    "copy": "Kopyala",
+    "done": "Tamam"
+  },
+  "status": {
+    "ssh": "SSH · {{user}}@{{host}}",
+    "remote": "{{protocol}} · {{user}}@{{host}}",
+    "local": "PTY · yerel",
+    "disconnected": "Bağlı değil",
+    "sessions": "{{count}} oturum",
+    "vaultNone": "Kasa yok",
+    "vaultUnlocked": "Kasa açık",
+    "vaultLocked": "Kasa kilitli",
+    "hosts": "{{count}} host",
+    "syncConnected": "sync · {{email}}",
+    "syncNoConnection": "sync · bağlantı yok",
+    "syncOff": "sync kapalı"
+  },
+  "runtime": {
+    "notTauri": "Masaüstü uygulaması çalışmıyor. Proje kökünden `pnpm dev` kullanın (yalnızca Vite/tarayıcı değil)."
+  }
+}

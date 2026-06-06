@@ -1,0 +1,39 @@
+{
+  "title": "Anahtarlar",
+  "subtitle": "SSH özel anahtarlarını yönetin. Kasada şifreli saklanır.",
+  "addKey": "+ Anahtar ekle",
+  "searchPlaceholder": "Anahtar ara…",
+  "vaultLocked": "Kasa kilitli. Anahtar eklemek veya düzenlemek için kilidi açın.",
+  "empty": "Henüz anahtar yok.",
+  "deleteConfirm": "Bu anahtar silinsin mi?",
+  "drawer": {
+    "titleAdd": "Anahtar ekle",
+    "titleEdit": "Anahtarı düzenle",
+    "titleCreated": "Anahtar oluşturuldu",
+    "subtitleStored": "Kasada şifreli saklanır.",
+    "subtitleCreated": "Ortak anahtarı sunucunuzun authorized_keys dosyasına kopyalayın.",
+    "modeAria": "Anahtar ekleme modu",
+    "generate": "Oluştur",
+    "import": "İçe aktar",
+    "nameLabel": "Ad",
+    "namePlaceholder": "Prod SSH key",
+    "tagsLabel": "Etiketler",
+    "tagsPlaceholder": "prod, ops",
+    "algorithmLabel": "Algoritma",
+    "algorithmEd25519": "Ed25519 (önerilen)",
+    "algorithmRsa": "RSA 4096",
+    "privateKeyLabel": "Özel anahtar (PEM)",
+    "privateKeyPlaceholderNew": "-----BEGIN OPENSSH PRIVATE KEY-----\n...\n-----END OPENSSH PRIVATE KEY-----",
+    "privateKeyPlaceholderRotate": "İsteğe bağlı — döndürmek için yeni anahtar yapıştırın",
+    "publicKeyLabel": "Ortak anahtar",
+    "saving": "Kaydediliyor…",
+    "generating": "Oluşturuluyor…",
+    "done": "Tamam",
+    "errors": {
+      "nameRequired": "Ad gerekli.",
+      "privateKeyRequired": "Özel anahtar gerekli.",
+      "generateUnavailable": "Anahtar oluşturma kullanılamıyor.",
+      "copyFailed": "Panoya kopyalanamadı."
+    }
+  }
+}

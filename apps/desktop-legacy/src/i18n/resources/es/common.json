@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "servers": "Servidores",
+    "snippets": "Fragmentos",
+    "vault": "Bóveda",
+    "keys": "Claves",
+    "settings": "Ajustes",
+    "navigation": "Navegación",
+    "pages": "Páginas"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Añadir",
+    "retry": "Reintentar",
+    "copy": "Copiar",
+    "done": "Listo"
+  },
+  "status": {
+    "ssh": "SSH · {{user}}@{{host}}",
+    "remote": "{{protocol}} · {{user}}@{{host}}",
+    "local": "PTY · local",
+    "disconnected": "No conectado",
+    "sessions": "{{count}} sesiones",
+    "vaultNone": "Sin bóveda",
+    "vaultUnlocked": "Bóveda desbloqueada",
+    "vaultLocked": "Bóveda bloqueada",
+    "hosts": "{{count}} hosts",
+    "syncConnected": "sync · {{email}}",
+    "syncNoConnection": "sync · sin conexión",
+    "syncOff": "sync desactivado"
+  },
+  "runtime": {
+    "notTauri": "La aplicación de escritorio no está en ejecución. Usa `pnpm dev` desde la raíz del proyecto (no solo Vite/navegador)."
+  }
+}

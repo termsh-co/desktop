@@ -1,0 +1,37 @@
+{
+  "connect": {
+    "connecting": "Connecting",
+    "failed": "Could not connect",
+    "defaultError": "Connection failed. Check that the host is reachable.",
+    "timeout": "Connection timed out. Check that the host is reachable.",
+    "hostNotFound": "Host not found.",
+    "vaultLocked": "Vault is locked. Unlock it from the top menu to use stored passwords.",
+    "passwordRequired": "Enter the SSH password.",
+    "passwordLabel": "SSH password",
+    "passwordPlaceholderStored": "Blank = stored password",
+    "passwordPlaceholderEnter": "Enter your password",
+    "connectButton": "Connect",
+    "connectingButton": "Connecting",
+    "hint": "Enter your password and press Connect.",
+    "retry": "Try again",
+    "editHost": "Edit"
+  },
+  "idle": {
+    "hint": "Open Terminal from the top menu or connect to a host.",
+    "openTerminal": "Open terminal"
+  },
+  "split": {
+    "primaryAria": "Primary pane",
+    "secondaryAria": "Secondary pane",
+    "primary": "Primary",
+    "split": "Split",
+    "secondarySession": "Secondary session",
+    "noOtherSession": "No other session",
+    "local": "Local"
+  },
+  "spawn": {
+    "hostIdMissing": "Host ID is missing",
+    "sshFailed": "Could not start SSH connection",
+    "shellFailed": "Could not start shell"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "termsh-clients",
+  "private": true,
+  "license": "AGPL-3.0",
+  "description": "termsh client apps (web, browser extension, desktop, and CLI)",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.mjs",
+    "dev": "pnpm --filter @termsh/desktop-legacy tauri dev",
+    "dev:legacy": "pnpm --filter @termsh/desktop-legacy tauri dev",
+    "dev:desktop": "pnpm --filter @termsh/desktop electron:start",
+    "dev:web": "pnpm --filter @termsh/web serve",
+    "build": "pnpm build:legacy && pnpm build:desktop && pnpm build:web",
+    "build:legacy": "pnpm --filter @termsh/desktop-legacy build",
+    "build:desktop": "pnpm --filter @termsh/desktop build",
+    "build:web": "pnpm --filter @termsh/web build",
+    "build:beta": "pnpm check && pnpm test && pnpm --filter @termsh/desktop-legacy build:beta",
+    "build:napi": "pnpm --filter @termsh/core-napi build",
+    "tauri": "pnpm --filter @termsh/desktop-legacy tauri",
+    "check": "pnpm --filter @termsh/desktop-legacy --filter @termsh/shared run check",
+    "check:release": "pnpm check",
+    "check:i18n": "pnpm --filter @termsh/desktop-legacy run check-i18n && node apps/desktop/scripts/check-i18n-keys.mjs",
+    "sync:license": "node ../scripts/sync-license.mjs",
+    "test": "pnpm test:js && pnpm test:rust",
+    "test:js": "pnpm --filter @termsh/desktop-legacy --filter @termsh/shared --filter @termsh/common --filter @termsh/ssh --filter @termsh/state run test",
+    "test:rust": "cargo test -p termsh-core && cargo test -p termsh-core-napi && cargo test --manifest-path apps/desktop-legacy/src-tauri/Cargo.toml",
+    "test:core": "cargo test -p termsh-core",
+    "nx": "nx",
+    "affected": "nx affected -t build"
+  },
+  "devDependencies": {
+    "nx": "^20.8.0",
+    "typescript": "~5.7.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "esbuild",
+      "@parcel/watcher",
+      "lmdb",
+      "msgpackr-extract",
+      "nx",
+      "keytar",
+      "node-pty"
+    ]
+  }
+}

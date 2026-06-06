@@ -1,0 +1,14 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": ".",
+    "rootDir": ".",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "noEmit": false,
+    "esModuleInterop": true
+  },
+  "include": ["main.ts", "preload.ts", "vault-stub.ts"]
+}

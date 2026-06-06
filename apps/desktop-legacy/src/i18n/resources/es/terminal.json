@@ -1,0 +1,37 @@
+{
+  "connect": {
+    "connecting": "Conectando",
+    "failed": "No se pudo conectar",
+    "defaultError": "Conexión fallida. Comprueba que el host sea accesible.",
+    "timeout": "Tiempo de conexión agotado. Comprueba que el host sea accesible.",
+    "hostNotFound": "Host no encontrado.",
+    "vaultLocked": "Bóveda bloqueada. Desbloquéala desde el menú superior para usar contraseñas guardadas.",
+    "passwordRequired": "Introduce la contraseña SSH.",
+    "passwordLabel": "Contraseña SSH",
+    "passwordPlaceholderStored": "Vacío = contraseña guardada",
+    "passwordPlaceholderEnter": "Introduce tu contraseña",
+    "connectButton": "Conectar",
+    "connectingButton": "Conectando",
+    "hint": "Introduce tu contraseña y pulsa Conectar.",
+    "retry": "Reintentar",
+    "editHost": "Editar"
+  },
+  "idle": {
+    "hint": "Abre Terminal desde el menú superior o conéctate a un host.",
+    "openTerminal": "Abrir terminal"
+  },
+  "split": {
+    "primaryAria": "Panel principal",
+    "secondaryAria": "Panel secundario",
+    "primary": "Principal",
+    "split": "Dividido",
+    "secondarySession": "Sesión secundaria",
+    "noOtherSession": "No hay otra sesión",
+    "local": "Local"
+  },
+  "spawn": {
+    "hostIdMissing": "Falta el ID del host",
+    "sshFailed": "No se pudo iniciar la conexión SSH",
+    "shellFailed": "No se pudo iniciar el shell"
+  }
+}

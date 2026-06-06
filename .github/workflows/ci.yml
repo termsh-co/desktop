@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  legacy:
+    name: desktop-legacy (Tauri)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Verify legacy version alignment
+        run: |
+          VER=$(node -p "require('./apps/desktop-legacy/package.json').version")
+          TAURI=$(node -p "require('./apps/desktop-legacy/src-tauri/tauri.conf.json').version")
+          CARGO=$(node -e "
+            const fs=require('fs');
+            const m=fs.readFileSync('apps/desktop-legacy/src-tauri/Cargo.toml','utf8').match(/^version = \"(.*)\"$/m);
+            process.stdout.write(m?.[1] ?? '');
+          ")
+          test -n "$VER" && test "$VER" = "$TAURI" && test "$VER" = "$CARGO" || {
+            echo "Version mismatch: package.json=$VER tauri=$TAURI cargo=$CARGO"
+            exit 1
+          }
+
+      - name: Typecheck
+        run: pnpm check:release
+
+      - name: i18n key parity
+        run: pnpm --filter @termsh/desktop-legacy run check-i18n
+
+      - name: Unit tests (JS/TS)
+        run: pnpm test:js
+
+      - name: Build desktop-legacy frontend
+        run: pnpm --filter @termsh/desktop-legacy build
+
+  nx:
+    name: nx (desktop + web)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build web app
+        run: pnpm --filter @termsh/web build
+
+      - name: Nx affected (dry)
+        run: pnpm nx show projects
+
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Cargo test
+        run: cargo test -p termsh-core -p termsh-core-napi
+      - name: Build NAPI
+        run: cargo build -p termsh-core-napi --release
